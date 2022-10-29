@@ -6,7 +6,7 @@
           line-height: 300px;text-align: center; cursor: pointer;box-shadow: 0 0 30px rgba(0,0,0, .2)">
               打卡
           </div>
-            <div>{{province}} {{city}}</div>
+            <div v-if="this.province != null">{{province}} {{city}}</div>
         </el-card>
     </div>
 </template>
