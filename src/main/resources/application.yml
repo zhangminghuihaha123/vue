@@ -1,0 +1,39 @@
+server:
+  port: 8080
+  servlet:
+    register-default-servlet: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+
+
+mybatis-plus:
+  type-aliases-package: com.zmh.demo.enty
+  mapper-locations: classpath:/mapping/*.xml
+  #Mybatis-Plus???
+  #configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+files:
+  upload:
+    path: C:/Users/zhangminghui/IdeaProjects/fenli02/src/main/resources/IMG/
+
+
+#支付宝
+alipay:
+  #APPID
+  appId: 2021000118659333
+  #应用私钥:
+  appPrivateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCRKne0bD7lF52RuAQbkCetu6LMaOG8QYZ+qmXsn8qH1DJor+q+9d8AIqbzJ1tXC2oNDMGQmNdgmCKH8LPO6aLt+tyO+0HlkLKV5MWa6WfhAuf8n0w3JIOr8BPTRI76qGn8E3BgqzBLXrv7GyP6JQ4QuwneyrF3sStk95r5HQLn3oGNE7zKS0PtehcCbbKgCblTGsYvzgrV2SD9fKVZVhmrkrAVKEl5KBMXLh3EG7P74s0/ogxW57sF5nHsokrje6i8IjNnuqfBX3e5gaHXTQvEw+hx4tmsdwlcgtNbA5OSb6X6AM9IuPwvNYAJBsIl/o0utJZbIK2I2+VF2nFOmNMjAgMBAAECggEBAJEjGJO3NhruxYePp+u28TTuSRJ+OlNyX/n8e/Ncv62WJuAsIlPSl6cW/jxVuSkKLHnnqw/bAFt/P+cSbXQOe+vbyPDbnULcrPDYzgjYHBgIQ9F7o0PuqgcZ/XhZL2rFP1HcTZsZDSwOB3xD4nCS48Euf+vUVCMLbAuC09sFeoY/mxPLy8109KqSwhzwbSbnQRO9lMDN288Dg0skU5FyR4Znrnq2+lP+ByPfFNsa9Q9ChOJ9/thEbxEGGhekQ5PrUrotTT2ivVxlJBpxG6CMR4fvajIkt1GGbiHyV+BHz7RB8ecqAViEX6QYFmLqwJNueLKJftG3zBuBKxrzG10ucyECgYEAyLjcCiV4G3ZFxxPMGza4Wi87j2vt7F3sfIELfolWkNb5LopKXf9lpLm7dFa+nZPXM3pB5CUv1gNk1uv/jv6TXftt1Nxc3LLH3YCbkEYOOGOOoN56/1F81TuQ2zDMryGct/DHpP1A5qMDPqMOJG7OZ+hW2MIeqDNJA39c161uFy0CgYEAuSTUmmZveat7VpM+xLAcSKvS7bIQrCGxR2Vsc+HWhe/HktFHw2TpGQuMmepzI0ZuckKDJH9IQHFVodM2P5blu/yDJNG5HFdEgdQsIshlgR0jJJg1KoR+Zqrv9j+AM+R6s71hs69jDGdMzCl4pDlPMpn7d6KD2Zg4uvCNXA3+BY8CgYBfJ+wAz2SSOE66IvOHDzj0YCHvSy5e+OPs3kxxr3AfeBpnat34k+Q+5GIutBTnpTfHSrVEEDEOV0uN7BGaW6vHSTP3ToSjiAniQ178VYnWR7RNJUvQEHSKrhNtJkRS3i9qsDYlTH5hGHSoVCqXMQSfE/FgDx7zhGSfyNhd0vU2/QKBgC1RsKDitiLIMPauME0g9qtrM8RvM9mOncBmOTfcbhB28xkjFTfk+ZHh29bJJsnZsatSUJucdGkh1N45vyutmip70vYuR+uCCQjmkK8q8n26TiHlCA6SRAaJjRdvz8fkA4z/rGy5X7tnhcrr09YPGS2/t2g/ZZrbwfcwbsm7uxRNAoGAUWG5bX8vtd6dBgFg3jh4wKZic+QcYBrd6BawIGQjsOB25UiQNHj8uanjUfVj4R/FOIN4CQ8nWP+PpaSUb+GpfMQaRffHgtkRbxV2FJfBvQQDCqf+ul0z2rTySsdfM/k/qp29dxEHjBhUc1YYi+I+iDgS/UZJW4Z2gF7dft2LMj8=
+  #支付宝公钥
+  alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsNIjFODJenDzSiOxnT0MMcuyhGgIjfq2oz5D6/nyEXZOiwsW6TPcDZUZvE78N829FijN4MKe5n1sSHHikX+IrLC+UunJlFFCrYeY/gA2iesZJMDX61yrB37Q9lXEYS7tVrqRg+cmdUaL8McrsJ99RakB9xDGvkrUH84CrTw3qa3xZKZ4hrNllFnBpDOZPodPKNPvpLBoFXjpksn/PaUC9ZkBl8LWIzoXvSC0AIYphZQjeiP23PJFEXxPdMFoAdxXUVZreDmIO/+bpCPqlX14Vw/c7t7o/WYavGEsmOqTgrGuCvDZa8DgULWUuSpMX/cEkifYS7kfrjAZelc1QhMsnwIDAQAB
+  #接受支付状态的URL
+  notifyUrl: http://zmh.free.idcfengye.com/alipay/notify

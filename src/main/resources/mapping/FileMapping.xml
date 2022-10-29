@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zmh.demo.mapper.FileMapper">
+    <select id="QueryListFile" resultType="com.zmh.demo.enty.Files" parameterType="map">
+           SELECT * from files
+           <where>
+               <if test="id != null">and id = #{id}</if>
+               <if test="filename != null">and filename like concat('%',#{filename},'%')</if>
+               <if test="type != null">and type = #{type}</if>
+               <if test="size != null">and size = #{size}</if>
+           </where>
+    </select>
+
+    <update id="updateCheck">
+        update files set `check` = #{i} where id=#{id};
+    </update>
+
+</mapper>
