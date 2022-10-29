@@ -24,7 +24,6 @@ public class FrontController {
     @GetMapping("/getimg")
     public Result getImg(){
         try{
-            System.out.println(fileMapper.SelectThingsFile().size());
             return Result.success(fileMapper.SelectThingsFile());
         }catch (Exception e){
             return Result.error();
