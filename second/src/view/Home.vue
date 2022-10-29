@@ -4,7 +4,7 @@
         <el-card style="margin-top: 30px">
           <div style="width: 300px; height: 300px; border-radius: 50%;background-color: #1E90FF;font-size: 42px;color: white;
           line-height: 300px;text-align: center; cursor: pointer;box-shadow: 0 0 30px rgba(0,0,0, .2)">
-              打卡
+              <p @click="daka">打卡</p>
           </div>
             <div v-if="this.province != null">{{province}} {{city}}</div>
         </el-card>
@@ -27,7 +27,15 @@
 
         },
         methods: {
-
+            daka(){
+                this.request.post('/time/times',this.user.username).then(res => {
+                    if(res.code !== '200'){
+                        this.$message.error(res.msg);
+                    }else {
+                        this.$message.success(res.data);
+                    }
+                })
+            }
         }
     }
 </script>
