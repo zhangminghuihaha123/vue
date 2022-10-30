@@ -38,6 +38,8 @@
             unlog(){
                 this.$router.push('/login');
                 localStorage.removeItem("user");
+                sessionStorage.removeItem("city");
+                sessionStorage.removeItem("province");
             }
         }
     }
