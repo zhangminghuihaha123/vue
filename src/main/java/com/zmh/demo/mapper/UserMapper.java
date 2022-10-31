@@ -27,4 +27,5 @@ public interface UserMapper extends BaseMapper<User> {
 
 
     List<HashMap<String,Object>> set();
+
 }

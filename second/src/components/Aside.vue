@@ -36,6 +36,10 @@
                 <i class="el-icon-s-custom"></i>
                 <span slot="title">角色管理</span>
             </el-menu-item>
+            <el-menu-item index="/time">
+                <i class="el-icon-time"></i>
+                <span slot="title">打卡管理</span>
+            </el-menu-item>
         </el-submenu>
         <el-submenu index="3">
             <template slot="title">

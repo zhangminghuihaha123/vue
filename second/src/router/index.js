@@ -78,6 +78,9 @@ const routes = [
       },
       {
         path: '/im', name: 'im', component: () => import('../view/im')
+      },
+      {
+        path: '/time', name: 'time', component: () => import('../view/Time')
       }
     ]
   }

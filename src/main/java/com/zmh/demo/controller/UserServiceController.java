@@ -138,8 +138,13 @@ public class UserServiceController {
             userService.saveBath(list);
     }
 
-    @RequestMapping("/set")
-    public List<HashMap<String, Object>> toset(){
-        return userMapper.set();
+    @RequestMapping("/getTimes")
+    public Result toset(@RequestParam Integer pageNum,
+                        @RequestParam Integer pageSize){
+        PageHelper.startPage(pageNum,pageSize);
+        HashMap map=new HashMap();
+        map.put("data",userMapper.set());
+        map.put("total",userMapper.set().size());
+        return Result.success(map);
     }
 }
