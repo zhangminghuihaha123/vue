@@ -6,7 +6,6 @@ import cn.hutool.poi.excel.ExcelReader;
 import cn.hutool.poi.excel.ExcelUtil;
 import cn.hutool.poi.excel.ExcelWriter;
 import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.zmh.demo.enty.User;
 import com.zmh.demo.mapper.UserMapper;
 import com.zmh.demo.service.UserService;
@@ -19,9 +18,7 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -141,4 +138,8 @@ public class UserServiceController {
             userService.saveBath(list);
     }
 
+    @RequestMapping("/set")
+    public List<HashMap<String, Object>> toset(){
+        return userMapper.set();
+    }
 }

@@ -24,4 +24,7 @@ public interface UserMapper extends BaseMapper<User> {
 
     @Select("Select role from second where username =#{username} limit 0,1")
     String getRole(@Param("username") String username);
+
+
+    List<HashMap<String,Object>> set();
 }

@@ -21,6 +21,7 @@ public class WebInterCeptorConfig implements WebMvcConfigurer {
         list.add("/user/export");
         list.add("/user/import");
         list.add("/user/selectone/**");
+        list.add("/user/set");
         list.add("/file/upload");
         list.add("/file/getimg");
         list.add("/file/img/**");

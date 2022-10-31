@@ -21,4 +21,13 @@
             <if test="token != null">and token =#{token}</if>
         </where>
     </select>
+
+    <select id="set" resultType="hashmap">
+        SELECT a.id,a.username,a.password,a.create_time,a.avater,a.role,b.time,
+        (if(b.time= DATE(NOW()),'今天 ','不是今天')) AS 日期
+        from second as a left join time as b
+                                   on a.username=b.name
+        where a.role ='管理员' or a.role ='vip'
+        GROUP BY a.username
+    </select>
 </mapper>
