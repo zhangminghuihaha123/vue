@@ -1,167 +1,859 @@
-2022-10-31 14:43:17.001  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 12368 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
-2022-10-31 14:43:17.002  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
-2022-10-31 14:43:17.058  INFO 12368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-10-31 14:43:17.059  INFO 12368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
-2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
-2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
-2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
-2022-10-31 14:43:17.616 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
-2022-10-31 14:43:17.616 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
-2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
-2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
-2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
-2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
-2022-10-31 14:43:17.675  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2022-10-31 14:43:17.677  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2022-10-31 14:43:17.698  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2022-10-31 14:43:17.795  WARN 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
-2022-10-31 14:43:18.320  INFO 12368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-10-31 14:43:18.329  INFO 12368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-10-31 14:43:18.329  INFO 12368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-31 14:43:18.451  INFO 12368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-10-31 14:43:18.451  INFO 12368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1391 ms
-2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
-2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@396e4428'
-2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
-2022-10-31 14:43:18.648  INFO 12368 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2022-10-31 14:43:18.864 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
-2022-10-31 14:43:18.890 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
-2022-10-31 14:43:18.993  INFO 12368 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
-2022-10-31 14:43:19.105 DEBUG 12368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2022-10-31 14:43:19.161 DEBUG 12368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
-2022-10-31 14:43:19.177 DEBUG 12368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
-2022-10-31 14:43:19.179 DEBUG 12368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
-2022-10-31 14:43:19.184 DEBUG 12368 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2022-10-31 14:43:19.541  INFO 12368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-10-31 14:43:19.556 DEBUG 12368 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
-2022-10-31 14:43:19.777  INFO 12368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-10-31 14:43:19.785  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.317 seconds (JVM running for 4.589)
-2022-10-31 14:44:08.897  INFO 12368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-31 14:44:08.898  INFO 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a8e0570
-2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5ed01e9a
-2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2022-10-31 14:44:08.899  INFO 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-10-31 14:44:08.905 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
-2022-10-31 14:44:08.911 DEBUG 12368 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
-2022-10-31 14:44:08.951 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:11.197 DEBUG 12368 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
-2022-10-31 14:44:11.197 DEBUG 12368 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
-2022-10-31 14:44:11.221  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
-2022-10-31 14:44:11.223 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to ["zmh"]
-2022-10-31 14:44:11.311 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:11.316 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5db62c] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:11.362 DEBUG 12368 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:11.391 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5db62c]
-2022-10-31 14:44:11.393 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:11.393 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52b4261c] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:11.394 DEBUG 12368 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:11.400 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52b4261c]
-2022-10-31 14:44:11.435 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-31 14:44:11.436 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=签到成功!)]
-2022-10-31 14:44:11.445 DEBUG 12368 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:12.130 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
-2022-10-31 14:44:12.131 DEBUG 12368 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
-2022-10-31 14:44:12.132  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
-2022-10-31 14:44:12.132 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to ["zmh"]
-2022-10-31 14:44:12.133 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:12.133 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d565e11] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:12.135 DEBUG 12368 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:12.147 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d565e11]
-2022-10-31 14:44:12.147 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-31 14:44:12.148 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=401, msg=今天已签到,请不要重复签到!, data=null)]
-2022-10-31 14:44:12.149 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:14.284 DEBUG 12368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
-2022-10-31 14:44:14.285 DEBUG 12368 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
-2022-10-31 14:44:14.285  INFO 12368 --- [http-nio-8080-exec-2] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
-2022-10-31 14:44:14.289 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:14.289 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4388b0e] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:14.339 DEBUG 12368 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:14.351 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4388b0e]
-2022-10-31 14:44:14.351 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:14.352 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad92d32] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:14.352 DEBUG 12368 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad92d32]
-2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
-2022-10-31 14:44:14.370 DEBUG 12368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:33.577 DEBUG 12368 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
-2022-10-31 14:44:33.577 DEBUG 12368 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
-2022-10-31 14:44:33.579 DEBUG 12368 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:33.643 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
-2022-10-31 14:44:33.643 DEBUG 12368 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
-2022-10-31 14:44:33.643  INFO 12368 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
-2022-10-31 14:44:33.644 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:33.644 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c71003] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:33.649 DEBUG 12368 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c71003]
-2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483df4b0] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:33.658 DEBUG 12368 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483df4b0]
-2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
-2022-10-31 14:44:33.661 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:43.794 DEBUG 12368 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
-2022-10-31 14:44:43.796 DEBUG 12368 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
-2022-10-31 14:44:43.840 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [User(id=null, username=zmh1, password=1234, createTime=null, avater=null, token=null, role=null)]
-2022-10-31 14:44:43.842 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:43.843 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a891db] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:43.843 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:43.845 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a891db]
-2022-10-31 14:44:43.873 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:43.873 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4070a6a1] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:43.875 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:43.876 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4070a6a1]
-2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
-2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d84ae56] was not registered for synchronization because synchronization is not active
-2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
-2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d84ae56]
-2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=User(id=null, username=zmh1, password=1234, createTime=null, avater=ht (truncated)...]
-2022-10-31 14:44:43.882 DEBUG 12368 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:43.935 DEBUG 12368 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
-2022-10-31 14:44:43.936 DEBUG 12368 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
-2022-10-31 14:44:43.939 DEBUG 12368 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:44:45.236  INFO 12368 --- [http-nio-8080-exec-10] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：1
-2022-10-31 14:44:45.246  INFO 12368 --- [http-nio-8080-exec-10] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[0]发送消息{"users":[{"username":"zmh1"}]}
-2022-10-31 14:44:47.711  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：1
-2022-10-31 14:44:47.712  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[1]发送消息{"users":[{"username":"zmh1"}]}
-2022-10-31 14:44:53.371  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=zmh1的用户session, 当前在线人数为：0
-2022-10-31 14:45:02.478 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2022-10-31 14:45:02.482 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2022-10-31 14:45:02.484  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
-2022-10-31 14:45:02.484 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2022-10-31 14:45:02.484 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2022-10-31 14:45:02.490 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2022-10-31 14:45:02.492 DEBUG 12368 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
-2022-10-31 14:45:02.493  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
-2022-10-31 14:45:02.493 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2022-10-31 14:45:08.832 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-06%20082600.png", parameters={}
-2022-10-31 14:45:08.833 DEBUG 12368 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
-2022-10-31 14:45:08.845 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:45:12.150  INFO 12368 --- [http-nio-8080-exec-8] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=admin, 当前在线人数为：1
-2022-10-31 14:45:12.150  INFO 12368 --- [http-nio-8080-exec-8] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"users":[{"username":"admin"}]}
-2022-10-31 14:45:17.347  INFO 12368 --- [http-nio-8080-exec-9] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=zmh1的用户session, 当前在线人数为：1
-2022-10-31 14:45:17.741 DEBUG 12368 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
-2022-10-31 14:45:17.741 DEBUG 12368 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
-2022-10-31 14:45:17.748  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：2
-2022-10-31 14:45:17.748  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[3]发送消息{"users":[{"username":"zmh1"},{"username":"admin"}]}
-2022-10-31 14:45:17.749  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"users":[{"username":"zmh1"},{"username":"admin"}]}
-2022-10-31 14:45:17.753 DEBUG 12368 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2022-10-31 14:45:26.123  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 服务端收到用户username=zmh1的消息:{"from":"zmh1","to":"admin","text":"12313123123213"}
-2022-10-31 14:45:26.139  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"from":"zmh1","text":"12313123123213"}
-2022-10-31 14:45:26.140  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 发送给用户username=admin，消息：{"from":"zmh1","text":"12313123123213"}
-2022-10-31 14:45:29.759  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 服务端收到用户username=admin的消息:{"from":"admin","to":"zmh1","text":"12312313"}
-2022-10-31 14:45:29.760  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[3]发送消息{"from":"admin","text":"12312313"}
-2022-10-31 14:45:29.760  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 发送给用户username=zmh1，消息：{"from":"admin","text":"12312313"}
-2022-10-31 14:45:45.730  INFO 12368 --- [http-nio-8080-exec-5] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=admin的用户session, 当前在线人数为：1
+2022-11-03 13:50:33.435  INFO 10932 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 10932 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 13:50:33.459  INFO 10932 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 13:50:33.524  INFO 10932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 13:50:33.524  INFO 10932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 13:50:34.250 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 13:50:34.250 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 13:50:34.250 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 13:50:34.250 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 13:50:34.250 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 13:50:34.251 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 13:50:34.252 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 13:50:34.252 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 13:50:34.252 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 13:50:34.252 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 13:50:34.252 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 13:50:34.253 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 13:50:34.253 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 13:50:34.253 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 13:50:34.253 DEBUG 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 13:50:34.338  INFO 10932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 13:50:34.341  INFO 10932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 13:50:34.369  INFO 10932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-11-03 13:50:34.505  WARN 10932 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 13:50:35.238  INFO 10932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 13:50:35.248  INFO 10932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 13:50:35.249  INFO 10932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 13:50:35.407  INFO 10932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 13:50:35.407  INFO 10932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1881 ms
+2022-11-03 13:50:35.654 DEBUG 10932 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 13:50:35.655 DEBUG 10932 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@7a8d0bc6'
+2022-11-03 13:50:35.655 DEBUG 10932 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 13:50:35.697  INFO 10932 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 13:50:36.100 DEBUG 10932 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 13:50:36.146 DEBUG 10932 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 13:50:36.286  INFO 10932 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 13:50:36.436 DEBUG 10932 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 13:50:36.512 DEBUG 10932 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2022-11-03 13:50:36.537 DEBUG 10932 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 13:50:36.540 DEBUG 10932 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 13:50:36.547 DEBUG 10932 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 13:50:37.070  INFO 10932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 13:50:37.086 DEBUG 10932 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 13:50:37.351  INFO 10932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 13:50:37.361  INFO 10932 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 4.635 seconds (JVM running for 6.25)
+2022-11-03 14:00:44.885  INFO 1192 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 1192 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:00:44.886  INFO 1192 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:00:44.945  INFO 1192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:00:44.946  INFO 1192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:00:45.624 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:00:45.624 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:00:45.624 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:00:45.624 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:00:45.624 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:00:45.626 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:00:45.626 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:00:45.627 DEBUG 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:00:45.684  INFO 1192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:00:45.686  INFO 1192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:00:45.708  INFO 1192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:00:45.800  WARN 1192 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:00:46.533  INFO 1192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:00:46.544  INFO 1192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:00:46.544  INFO 1192 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:00:46.689  INFO 1192 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:00:46.689  INFO 1192 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1742 ms
+2022-11-03 14:00:46.847 DEBUG 1192 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:00:46.848 DEBUG 1192 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@744bdb3f'
+2022-11-03 14:00:46.848 DEBUG 1192 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:00:46.877  INFO 1192 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:00:47.087 DEBUG 1192 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:00:47.117 DEBUG 1192 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:00:47.239  INFO 1192 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:00:47.383 DEBUG 1192 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:00:47.457 DEBUG 1192 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:00:47.472 DEBUG 1192 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:00:47.475 DEBUG 1192 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:00:47.481 DEBUG 1192 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:00:47.846  INFO 1192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:00:47.859 DEBUG 1192 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:00:48.094  INFO 1192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:00:48.102  INFO 1192 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.695 seconds (JVM running for 4.773)
+2022-11-03 14:01:03.980  INFO 1192 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:01:03.981  INFO 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:01:03.981 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:01:03.981 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:01:03.982 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:01:03.982 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f61012f
+2022-11-03 14:01:03.983 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6ffa7bb0
+2022-11-03 14:01:03.983 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:01:03.983  INFO 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-03 14:01:03.992 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:01:03.998 DEBUG 1192 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:01:04.006  INFO 1192 --- [http-nio-8080-exec-2] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:01:04.006 DEBUG 1192 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-03 14:01:04.100 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-11-03 14:01:04.103 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-11-03 14:01:04.103  INFO 1192 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-03 14:01:04.107 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-11-03 14:01:04.107 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-11-03 14:01:04.116 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:01:04.118 DEBUG 1192 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-11-03 14:01:04.118  INFO 1192 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:01:04.118 DEBUG 1192 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-11-03 14:01:56.204  INFO 2204 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 2204 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:01:56.206  INFO 2204 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:01:56.265  INFO 2204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:01:56.266  INFO 2204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:01:56.857 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:01:56.858 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:01:56.858 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:01:56.858 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:01:56.858 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:01:56.859 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:01:56.860 DEBUG 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:01:56.920  INFO 2204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:01:56.921  INFO 2204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:01:56.943  INFO 2204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:01:57.040  WARN 2204 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:01:57.564  INFO 2204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:01:57.570  INFO 2204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:01:57.571  INFO 2204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:01:57.694  INFO 2204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:01:57.694  INFO 2204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2022-11-03 14:01:57.851 DEBUG 2204 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:01:57.852 DEBUG 2204 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@5b6679d8'
+2022-11-03 14:01:57.852 DEBUG 2204 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:01:57.881  INFO 2204 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:01:58.077 DEBUG 2204 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:01:58.105 DEBUG 2204 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:01:58.233  INFO 2204 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:01:58.345 DEBUG 2204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:01:58.397 DEBUG 2204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:01:58.410 DEBUG 2204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:01:58.412 DEBUG 2204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:01:58.418 DEBUG 2204 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:01:58.764  INFO 2204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:01:58.777 DEBUG 2204 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:01:58.994  INFO 2204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:01:59.002  INFO 2204 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.268 seconds (JVM running for 4.493)
+2022-11-03 14:02:03.569  INFO 2204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:02:03.571  INFO 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:02:03.571 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:02:03.571 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:02:03.571 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:02:03.572 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5db82986
+2022-11-03 14:02:03.572 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7e951b
+2022-11-03 14:02:03.572 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:02:03.572  INFO 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:02:03.578 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:02:03.582 DEBUG 2204 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:02:03.598 DEBUG 2204 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:02:03.604 DEBUG 2204 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d2ef7b] was not registered for synchronization because synchronization is not active
+2022-11-03 14:02:03.611 DEBUG 2204 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7c02d435] will not be managed by Spring
+2022-11-03 14:02:03.635 DEBUG 2204 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d2ef7b]
+2022-11-03 14:02:03.641 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.ArithmeticException: / by zero
+2022-11-03 14:02:03.648 ERROR 2204 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.zmh.demo.controller.TimeController.todelete(TimeController.java:42) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2022-11-03 14:02:03.654 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:02:03.657 DEBUG 2204 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-11-03 14:02:03.660  INFO 2204 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:02:03.661 DEBUG 2204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-11-03 14:02:34.471  INFO 2244 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 2244 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:02:34.472  INFO 2244 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:02:34.523  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:02:34.523  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:02:35.085 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:02:35.085 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:02:35.085 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:02:35.085 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:02:35.086 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:02:35.086 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:02:35.087 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:02:35.087 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:02:35.087 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:02:35.088 DEBUG 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:02:35.146  INFO 2244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:02:35.148  INFO 2244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:02:35.169  INFO 2244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:02:35.265  WARN 2244 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:02:35.740  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:02:35.746  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:02:35.747  INFO 2244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:02:35.867  INFO 2244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:02:35.867  INFO 2244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1343 ms
+2022-11-03 14:02:36.007 DEBUG 2244 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:02:36.008 DEBUG 2244 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@75f08527'
+2022-11-03 14:02:36.008 DEBUG 2244 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:02:36.028  INFO 2244 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:02:36.229 DEBUG 2244 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:02:36.258 DEBUG 2244 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:02:36.378  INFO 2244 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:02:36.489 DEBUG 2244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:02:36.541 DEBUG 2244 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:02:36.554 DEBUG 2244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:02:36.556 DEBUG 2244 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:02:36.560 DEBUG 2244 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:02:36.897  INFO 2244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:02:36.910 DEBUG 2244 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:02:37.124  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:02:37.132  INFO 2244 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.108 seconds (JVM running for 4.11)
+2022-11-03 14:02:43.058  INFO 2244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:02:43.059  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:02:43.059 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:02:43.059 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:02:43.059 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:02:43.060 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@60668cf5
+2022-11-03 14:02:43.060 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1345d24e
+2022-11-03 14:02:43.060 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:02:43.060  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:02:43.065 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:02:43.069 DEBUG 2244 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:02:43.097 DEBUG 2244 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:02:43.101 DEBUG 2244 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:02:43.107 DEBUG 2244 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@71f11444] will be managed by Spring
+2022-11-03 14:02:43.123 DEBUG 2244 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:02:43.124 DEBUG 2244 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:02:43.124 DEBUG 2244 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:02:43.133 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.ArithmeticException: / by zero
+2022-11-03 14:02:43.140 ERROR 2244 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.zmh.demo.controller.TimeController.todelete(TimeController.java:44) ~[classes/:na]
+	at com.zmh.demo.controller.TimeController$$FastClassBySpringCGLIB$$29be3fb6.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.zmh.demo.controller.TimeController$$EnhancerBySpringCGLIB$$2eea320b.todelete(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2022-11-03 14:02:43.144 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:02:43.146 DEBUG 2244 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-11-03 14:02:43.149  INFO 2244 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:02:43.149 DEBUG 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-11-03 14:03:51.760  INFO 15172 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 15172 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:03:51.761  INFO 15172 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:03:51.816  INFO 15172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:03:51.816  INFO 15172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:03:52.510 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:03:52.510 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:03:52.511 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:03:52.511 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:03:52.511 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:03:52.512 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:03:52.512 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:03:52.513 DEBUG 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:03:52.569  INFO 15172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:03:52.571  INFO 15172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:03:52.591  INFO 15172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:03:52.680  WARN 15172 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:03:53.154  INFO 15172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:03:53.160  INFO 15172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:03:53.160  INFO 15172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:03:53.297  INFO 15172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:03:53.298  INFO 15172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1481 ms
+2022-11-03 14:03:53.438 DEBUG 15172 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:03:53.439 DEBUG 15172 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@1bf2dd9f'
+2022-11-03 14:03:53.439 DEBUG 15172 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:03:53.463  INFO 15172 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:03:53.652 DEBUG 15172 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:03:53.693 DEBUG 15172 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:03:53.809  INFO 15172 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:03:53.917 DEBUG 15172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:03:53.969 DEBUG 15172 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:03:53.985 DEBUG 15172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:03:53.987 DEBUG 15172 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:03:53.992 DEBUG 15172 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:03:54.331  INFO 15172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:03:54.345 DEBUG 15172 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:03:54.554  INFO 15172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:03:54.561  INFO 15172 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.159 seconds (JVM running for 4.272)
+2022-11-03 14:03:59.640  INFO 15172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:03:59.642  INFO 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:03:59.642 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:03:59.642 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:03:59.642 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:03:59.643 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@60668cf5
+2022-11-03 14:03:59.643 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1345d24e
+2022-11-03 14:03:59.643 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:03:59.643  INFO 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:03:59.648 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:03:59.656 DEBUG 15172 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:03:59.675 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:03:59.678 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:03:59.684 DEBUG 15172 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@71f11444] will be managed by Spring
+2022-11-03 14:03:59.711 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:03:59.712 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:03:59.712 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:03:59.712 DEBUG 15172 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c4e933b]
+2022-11-03 14:03:59.725 DEBUG 15172 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-11-03 14:03:59.725 DEBUG 15172 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["error"]
+2022-11-03 14:03:59.732 DEBUG 15172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-03 14:04:44.209  INFO 14456 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 14456 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:04:44.211  INFO 14456 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:04:44.270  INFO 14456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:04:44.270  INFO 14456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:04:44.874 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:04:44.874 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:04:44.874 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:04:44.874 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:04:44.874 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:04:44.875 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:04:44.876 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:04:44.876 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:04:44.876 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:04:44.876 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:04:44.877 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:04:44.877 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:04:44.877 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:04:44.877 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:04:44.877 DEBUG 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:04:44.935  INFO 14456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:04:44.936  INFO 14456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:04:44.956  INFO 14456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:04:45.048  WARN 14456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:04:45.528  INFO 14456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:04:45.535  INFO 14456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:04:45.536  INFO 14456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:04:45.683  INFO 14456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:04:45.684  INFO 14456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1413 ms
+2022-11-03 14:04:45.835 DEBUG 14456 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:04:45.835 DEBUG 14456 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@1618054e'
+2022-11-03 14:04:45.835 DEBUG 14456 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:04:45.859  INFO 14456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:04:46.040 DEBUG 14456 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:04:46.072 DEBUG 14456 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:04:46.189  INFO 14456 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:04:46.294 DEBUG 14456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:04:46.346 DEBUG 14456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:04:46.363 DEBUG 14456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:04:46.366 DEBUG 14456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:04:46.370 DEBUG 14456 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:04:46.717  INFO 14456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:04:46.729 DEBUG 14456 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:04:46.943  INFO 14456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:04:46.951  INFO 14456 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.196 seconds (JVM running for 4.236)
+2022-11-03 14:04:53.866  INFO 14456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:04:53.868  INFO 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:04:53.868 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:04:53.868 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:04:53.868 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:04:53.869 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3c4a6315
+2022-11-03 14:04:53.869 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1c07e01
+2022-11-03 14:04:53.869 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:04:53.869  INFO 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:04:53.875 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:04:53.878 DEBUG 14456 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:04:53.889 DEBUG 14456 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:04:53.893 DEBUG 14456 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4579a79c] was not registered for synchronization because synchronization is not active
+2022-11-03 14:04:53.897 DEBUG 14456 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3df626cd] will not be managed by Spring
+2022-11-03 14:04:53.934 DEBUG 14456 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4579a79c]
+2022-11-03 14:04:53.942 DEBUG 14456 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-11-03 14:04:53.943 DEBUG 14456 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["error"]
+2022-11-03 14:04:53.948 DEBUG 14456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-03 14:07:51.973  INFO 7428 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 7428 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:07:51.977  INFO 7428 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:07:52.054  INFO 7428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:07:52.055  INFO 7428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:07:52.847 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:07:52.847 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:07:52.847 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:07:52.847 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:07:52.847 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:07:52.848 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:07:52.849 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:07:52.850 DEBUG 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:07:52.938  INFO 7428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:07:52.940  INFO 7428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:07:52.965  INFO 7428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:07:53.080  WARN 7428 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:07:53.603  INFO 7428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:07:53.611  INFO 7428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:07:53.611  INFO 7428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:07:53.735  INFO 7428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:07:53.736  INFO 7428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1681 ms
+2022-11-03 14:07:53.897 DEBUG 7428 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:07:53.898 DEBUG 7428 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@34b42529'
+2022-11-03 14:07:53.898 DEBUG 7428 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:07:53.926  INFO 7428 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:07:54.136 DEBUG 7428 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:07:54.174 DEBUG 7428 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:07:54.287  INFO 7428 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:07:54.406 DEBUG 7428 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:07:54.459 DEBUG 7428 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:07:54.475 DEBUG 7428 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:07:54.478 DEBUG 7428 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:07:54.483 DEBUG 7428 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:07:54.842  INFO 7428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:07:54.855 DEBUG 7428 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:07:55.109  INFO 7428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:07:55.118  INFO 7428 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.591 seconds (JVM running for 4.683)
+2022-11-03 14:08:05.049  INFO 16936 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 16936 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:08:05.051  INFO 16936 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:08:05.118  INFO 16936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:08:05.119  INFO 16936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:08:05.733 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:08:05.733 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:08:05.733 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:08:05.734 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:08:05.734 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:08:05.734 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:08:05.735 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:08:05.736 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:08:05.736 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:08:05.736 DEBUG 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:08:05.793  INFO 16936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:08:05.794  INFO 16936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:08:05.814  INFO 16936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:08:05.908  WARN 16936 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:08:06.379  INFO 16936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:08:06.385  INFO 16936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:08:06.386  INFO 16936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:08:06.504  INFO 16936 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:08:06.504  INFO 16936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1384 ms
+2022-11-03 14:08:06.658 DEBUG 16936 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:08:06.658 DEBUG 16936 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@3e65045a'
+2022-11-03 14:08:06.658 DEBUG 16936 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:08:06.682  INFO 16936 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:08:06.875 DEBUG 16936 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:08:06.908 DEBUG 16936 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:08:07.030  INFO 16936 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:08:07.151 DEBUG 16936 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:08:07.206 DEBUG 16936 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:08:07.218 DEBUG 16936 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:08:07.220 DEBUG 16936 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:08:07.226 DEBUG 16936 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:08:07.588  INFO 16936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:08:07.602 DEBUG 16936 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:08:07.916  INFO 16936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:08:07.925  INFO 16936 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.303 seconds (JVM running for 4.31)
+2022-11-03 14:08:21.243  INFO 16936 --- [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:08:21.243  INFO 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:08:21.244 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:08:21.244 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:08:21.244 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:08:21.244 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1c6fe934
+2022-11-03 14:08:21.245 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@422a8aec
+2022-11-03 14:08:21.245 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:08:21.245  INFO 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:08:21.252 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:08:21.255 DEBUG 16936 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:08:21.276 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:08:21.281 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75face18]
+2022-11-03 14:08:21.286 DEBUG 16936 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55d8f827] will be managed by Spring
+2022-11-03 14:08:21.304 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75face18]
+2022-11-03 14:08:21.305 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75face18]
+2022-11-03 14:08:21.305 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75face18]
+2022-11-03 14:08:21.305 DEBUG 16936 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75face18]
+2022-11-03 14:08:21.323 DEBUG 16936 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-11-03 14:08:21.323 DEBUG 16936 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["error"]
+2022-11-03 14:08:21.328 DEBUG 16936 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-03 14:08:21.385 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-11-03 14:08:21.387 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-11-03 14:08:21.394  INFO 16936 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-03 14:08:21.397 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-11-03 14:08:21.398 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-11-03 14:08:21.402 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:08:21.403 DEBUG 16936 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-11-03 14:08:21.403  INFO 16936 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:08:21.404 DEBUG 16936 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-11-03 14:09:56.843  INFO 8612 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 8612 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:09:56.844  INFO 8612 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:09:56.914  INFO 8612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:09:56.915  INFO 8612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:09:57.491 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:09:57.491 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:09:57.491 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:09:57.491 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:09:57.491 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:09:57.492 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:09:57.492 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:09:57.493 DEBUG 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:09:57.547  INFO 8612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:09:57.548  INFO 8612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:09:57.570  INFO 8612 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:09:57.659  WARN 8612 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:09:58.146  INFO 8612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:09:58.153  INFO 8612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:09:58.153  INFO 8612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:09:58.268  INFO 8612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:09:58.268  INFO 8612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2022-11-03 14:09:58.409 DEBUG 8612 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:09:58.410 DEBUG 8612 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@3b3ba73d'
+2022-11-03 14:09:58.410 DEBUG 8612 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:09:58.434  INFO 8612 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:09:58.619 DEBUG 8612 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:09:58.645 DEBUG 8612 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:09:58.762  INFO 8612 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:09:58.872 DEBUG 8612 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:09:58.926 DEBUG 8612 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:09:58.938 DEBUG 8612 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:09:58.940 DEBUG 8612 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:09:58.946 DEBUG 8612 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:09:59.295  INFO 8612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:09:59.307 DEBUG 8612 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:09:59.549  INFO 8612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:09:59.557  INFO 8612 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.158 seconds (JVM running for 4.287)
+2022-11-03 14:10:19.064  INFO 8612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:10:19.065  INFO 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:10:19.065 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:10:19.065 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:10:19.065 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:10:19.066 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3d33413e
+2022-11-03 14:10:19.066 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4bcd783e
+2022-11-03 14:10:19.066 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:10:19.066  INFO 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:10:19.072 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:10:19.076 DEBUG 8612 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:10:19.096 DEBUG 8612 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:10:19.100 DEBUG 8612 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fd8df41]
+2022-11-03 14:10:19.105 DEBUG 8612 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5cca7124] will be managed by Spring
+2022-11-03 14:10:19.131 DEBUG 8612 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fd8df41]
+2022-11-03 14:10:19.132 DEBUG 8612 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fd8df41]
+2022-11-03 14:10:19.132 DEBUG 8612 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fd8df41]
+2022-11-03 14:10:19.141 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.RuntimeException
+2022-11-03 14:10:19.148 ERROR 8612 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+
+java.lang.RuntimeException: null
+	at com.zmh.demo.controller.TimeController.todelete(TimeController.java:47) ~[classes/:na]
+	at com.zmh.demo.controller.TimeController$$FastClassBySpringCGLIB$$29be3fb6.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.zmh.demo.controller.TimeController$$EnhancerBySpringCGLIB$$6093449.todelete(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2022-11-03 14:10:19.152 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:10:19.154 DEBUG 8612 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-11-03 14:10:19.158  INFO 8612 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:10:19.158 DEBUG 8612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-11-03 14:10:35.589  INFO 3788 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 3788 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:10:35.590  INFO 3788 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:10:35.642  INFO 3788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:10:35.643  INFO 3788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:10:36.203 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:10:36.203 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:10:36.203 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:10:36.203 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:10:36.203 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:10:36.204 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:10:36.204 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:10:36.204 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:10:36.205 DEBUG 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:10:36.266  INFO 3788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:10:36.268  INFO 3788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:10:36.293  INFO 3788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:10:36.388  WARN 3788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:10:36.862  INFO 3788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:10:36.869  INFO 3788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:10:36.869  INFO 3788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:10:36.990  INFO 3788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:10:36.990  INFO 3788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2022-11-03 14:10:37.128 DEBUG 3788 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:10:37.129 DEBUG 3788 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@3cd89c69'
+2022-11-03 14:10:37.129 DEBUG 3788 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:10:37.154  INFO 3788 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:10:37.346 DEBUG 3788 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:10:37.378 DEBUG 3788 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:10:37.501  INFO 3788 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:10:37.609 DEBUG 3788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:10:37.660 DEBUG 3788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 34 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:10:37.672 DEBUG 3788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:10:37.675 DEBUG 3788 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:10:37.680 DEBUG 3788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:10:38.015  INFO 3788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:10:38.027 DEBUG 3788 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:10:38.244  INFO 3788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:10:38.252  INFO 3788 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.104 seconds (JVM running for 4.114)
+2022-11-03 14:10:44.659  INFO 3788 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-03 14:10:44.660  INFO 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-03 14:10:44.660 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-03 14:10:44.660 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-03 14:10:44.660 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-03 14:10:44.661 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1708e81c
+2022-11-03 14:10:44.661 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@423152da
+2022-11-03 14:10:44.661 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-03 14:10:44.661  INFO 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-03 14:10:44.667 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/time/delete", parameters={}
+2022-11-03 14:10:44.671 DEBUG 3788 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#todelete()
+2022-11-03 14:10:44.682 DEBUG 3788 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-03 14:10:44.687 DEBUG 3788 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1146c8ee] was not registered for synchronization because synchronization is not active
+2022-11-03 14:10:44.692 DEBUG 3788 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@eaba5db] will not be managed by Spring
+2022-11-03 14:10:44.720 DEBUG 3788 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1146c8ee]
+2022-11-03 14:10:44.724 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.RuntimeException
+2022-11-03 14:10:44.729 ERROR 3788 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException] with root cause
+
+java.lang.RuntimeException: null
+	at com.zmh.demo.controller.TimeController.todelete(TimeController.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2022-11-03 14:10:44.734 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-03 14:10:44.736 DEBUG 3788 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-11-03 14:10:44.739  INFO 3788 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-03 14:10:44.740 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500

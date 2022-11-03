@@ -11,6 +11,7 @@ import com.zmh.demo.mapper.UserMapper;
 import com.zmh.demo.service.UserService;
 import com.zmh.demo.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
