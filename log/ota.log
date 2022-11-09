@@ -857,3 +857,1033 @@ java.lang.RuntimeException: null
 2022-11-03 14:10:44.736 DEBUG 3788 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
 2022-11-03 14:10:44.739  INFO 3788 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
 2022-11-03 14:10:44.740 DEBUG 3788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-11-03 14:48:20.312  INFO 17264 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 17264 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-03 14:48:20.313  INFO 17264 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 14:48:20.368  INFO 17264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-03 14:48:20.368  INFO 17264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-03 14:48:21.104 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-03 14:48:21.104 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-03 14:48:21.104 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-03 14:48:21.104 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-03 14:48:21.105 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-03 14:48:21.106 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-03 14:48:21.106 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-03 14:48:21.107 DEBUG 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-03 14:48:21.166  INFO 17264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-03 14:48:21.167  INFO 17264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-03 14:48:21.189  INFO 17264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-11-03 14:48:21.298  WARN 17264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-03 14:48:21.839  INFO 17264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-03 14:48:21.847  INFO 17264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 14:48:21.848  INFO 17264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 14:48:21.970  INFO 17264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-03 14:48:21.971  INFO 17264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1602 ms
+2022-11-03 14:48:22.127 DEBUG 17264 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-03 14:48:22.127 DEBUG 17264 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@396e4428'
+2022-11-03 14:48:22.128 DEBUG 17264 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-03 14:48:22.156  INFO 17264 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-03 14:48:22.356 DEBUG 17264 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-03 14:48:22.384 DEBUG 17264 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-03 14:48:22.487  INFO 17264 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-03 14:48:22.599 DEBUG 17264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-03 14:48:22.654 DEBUG 17264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2022-11-03 14:48:22.669 DEBUG 17264 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-03 14:48:22.672 DEBUG 17264 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-03 14:48:22.678 DEBUG 17264 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-03 14:48:23.049  INFO 17264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-03 14:48:23.062 DEBUG 17264 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-03 14:48:23.335  INFO 17264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-03 14:48:23.343  INFO 17264 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.452 seconds (JVM running for 4.632)
+2022-11-08 15:19:32.506  INFO 7704 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 7704 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-11-08 15:19:32.507  INFO 7704 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-11-08 15:19:32.544  INFO 7704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-08 15:19:32.545  INFO 7704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-08 15:19:33.166 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-11-08 15:19:33.167 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-11-08 15:19:33.167 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-11-08 15:19:33.167 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-11-08 15:19:33.167 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-11-08 15:19:33.168 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-11-08 15:19:33.169 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-11-08 15:19:33.169 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-11-08 15:19:33.170 DEBUG 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-11-08 15:19:33.252  INFO 7704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-08 15:19:33.254  INFO 7704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-08 15:19:33.282  INFO 7704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-11-08 15:19:33.412  WARN 7704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-11-08 15:19:34.128  INFO 7704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-08 15:19:34.136  INFO 7704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-08 15:19:34.136  INFO 7704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-08 15:19:34.278  INFO 7704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-08 15:19:34.278  INFO 7704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2022-11-08 15:19:34.468 DEBUG 7704 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-11-08 15:19:34.469 DEBUG 7704 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@430e7159'
+2022-11-08 15:19:34.469 DEBUG 7704 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-11-08 15:19:34.501  INFO 7704 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-11-08 15:19:34.851 DEBUG 7704 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-11-08 15:19:34.890 DEBUG 7704 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-11-08 15:19:35.007  INFO 7704 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-11-08 15:19:35.151 DEBUG 7704 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-08 15:19:35.211 DEBUG 7704 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2022-11-08 15:19:35.228 DEBUG 7704 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-11-08 15:19:35.231 DEBUG 7704 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-11-08 15:19:35.238 DEBUG 7704 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-08 15:19:35.680  INFO 7704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-08 15:19:35.694 DEBUG 7704 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-11-08 15:19:35.915  INFO 7704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-08 15:19:35.924  INFO 7704 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 4.03 seconds (JVM running for 5.444)
+2022-11-08 15:19:53.971  INFO 7704 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-08 15:19:53.972  INFO 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-08 15:19:53.972 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-08 15:19:53.972 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-08 15:19:53.972 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-08 15:19:53.974 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@50e5b420
+2022-11-08 15:19:53.974 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@62bcca6e
+2022-11-08 15:19:53.974 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-08 15:19:53.974  INFO 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-08 15:19:53.982 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
+2022-11-08 15:19:53.987 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
+2022-11-08 15:19:54.006  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-08 15:19:54.007 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:05.228 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/login", parameters={}
+2022-11-08 15:20:05.229 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
+2022-11-08 15:20:05.230 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:05.237 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2022-11-08 15:20:05.237 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
+2022-11-08 15:20:05.300 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [User(id=null, username=admin, password=1234, createTime=null, avater=null, token=null, role=null)]
+2022-11-08 15:20:05.312 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:05.320 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11808afa] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:05.328 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:05.442 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11808afa]
+2022-11-08 15:20:05.483 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:05.483 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f985b91] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:05.506 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:05.511 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f985b91]
+2022-11-08 15:20:05.511 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:05.512 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@251b3322] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:05.512 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:05.515 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@251b3322]
+2022-11-08 15:20:05.529 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:20:05.530 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=User(id=null, username=admin, password=1234, createTime=null, avater=h (truncated)...]
+2022-11-08 15:20:05.539 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:05.655 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-06%20082600.png", parameters={}
+2022-11-08 15:20:05.656 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:05.705 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.838 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=1&pageSize=10&username=", parameters={masked}
+2022-11-08 15:20:08.839 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:20:08.839  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:20:08.840 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.842 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=10&username=", parameters={masked}
+2022-11-08 15:20:08.842 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:20:08.844  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:20:08.847 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:08.847 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c5c1a8] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:08.886 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:08.897 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c5c1a8]
+2022-11-08 15:20:08.897 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:08.898 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28ffd4a7] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:08.898 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:08.900 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28ffd4a7]
+2022-11-08 15:20:08.901 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:20:08.902 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:20:08.909 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.929 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
+2022-11-08 15:20:08.929 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.931 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.935 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152332.png", parameters={}
+2022-11-08 15:20:08.935 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.937 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.940 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152427.png", parameters={}
+2022-11-08 15:20:08.941 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.943 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.946 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20221025_203048.png", parameters={}
+2022-11-08 15:20:08.946 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.952 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.954 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152401.png", parameters={}
+2022-11-08 15:20:08.954 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.956 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:08.959 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
+2022-11-08 15:20:08.959 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:08.962 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:09.797 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:20:09.798 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:20:09.798  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:20:09.799 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:09.801 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:20:09.802 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:20:09.802  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:20:09.803 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:09.804 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a66334e] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:09.806 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:09.815 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a66334e]
+2022-11-08 15:20:09.815 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:09.816 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67e70a1f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:09.816 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:09.818 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67e70a1f]
+2022-11-08 15:20:09.820 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:20:09.823 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, en (truncated)...]
+2022-11-08 15:20:09.824 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:09.838 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-07-22%20001437.png", parameters={}
+2022-11-08 15:20:09.838 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:09.841 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:09.844 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152449.png", parameters={}
+2022-11-08 15:20:09.844 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:09.846 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:09.851 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-09%20143903.png", parameters={}
+2022-11-08 15:20:09.852 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:09.854 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:13.380 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=10&username=", parameters={masked}
+2022-11-08 15:20:13.381 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:20:13.381  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:20:13.382 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:13.382 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e113ff0] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:13.383 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:13.389 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e113ff0]
+2022-11-08 15:20:13.390 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:13.390 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6705343f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:13.390 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:13.391 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6705343f]
+2022-11-08 15:20:13.391 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:20:13.392 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:20:13.392 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.513 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : OPTIONS "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:20:15.514 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:20:15.514  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:20:15.514 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.516 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:20:15.516 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:20:15.516  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:20:15.517 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:15.518 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3da2ee64] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:15.522 DEBUG 7704 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:15.531 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3da2ee64]
+2022-11-08 15:20:15.531 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:20:15.531 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71dbfe08] was not registered for synchronization because synchronization is not active
+2022-11-08 15:20:15.532 DEBUG 7704 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@79423293] will not be managed by Spring
+2022-11-08 15:20:15.533 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71dbfe08]
+2022-11-08 15:20:15.533 DEBUG 7704 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:20:15.536 DEBUG 7704 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=8, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:20:15.539 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.549 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-05-06%20201238.png", parameters={}
+2022-11-08 15:20:15.550 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.552 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.557 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-05-08%20184557.png", parameters={}
+2022-11-08 15:20:15.558 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.560 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.566 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152419.png", parameters={}
+2022-11-08 15:20:15.566 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.569 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.588 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-25%20203050.png", parameters={}
+2022-11-08 15:20:15.589 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.590 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20191533.png", parameters={}
+2022-11-08 15:20:15.590 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-26%20165119.png", parameters={}
+2022-11-08 15:20:15.591 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20191515.png", parameters={}
+2022-11-08 15:20:15.591 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.591 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.591 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:20:15.594 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.596 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.599 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:20:15.600 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:52.938 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-06%20082600.png", parameters={}
+2022-11-08 15:21:52.939 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:52.953 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.017 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:21:53.018 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:21:53.018  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:21:53.018 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:21:53.018 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5735e5d] was not registered for synchronization because synchronization is not active
+2022-11-08 15:21:53.037  WARN 7704 --- [http-nio-8080-exec-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 97499
+2022-11-08 15:21:53.047 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:21:53.052 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5735e5d]
+2022-11-08 15:21:53.053 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:21:53.053 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b5fdce3] was not registered for synchronization because synchronization is not active
+2022-11-08 15:21:53.053 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:21:53.054 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b5fdce3]
+2022-11-08 15:21:53.055 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:21:53.055 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=8, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:21:53.058 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.097 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-05-06%20201238.png", parameters={}
+2022-11-08 15:21:53.097 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.099 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.104 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-05-08%20184557.png", parameters={}
+2022-11-08 15:21:53.104 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.106 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.115 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152401.png", parameters={}
+2022-11-08 15:21:53.116 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.117 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.120 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152419.png", parameters={}
+2022-11-08 15:21:53.120 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.122 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.127 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-25%20203050.png", parameters={}
+2022-11-08 15:21:53.127 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.130 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.133 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-26%20165119.png", parameters={}
+2022-11-08 15:21:53.134 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.136 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.139 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20191533.png", parameters={}
+2022-11-08 15:21:53.139 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.141 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:21:53.145 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20191515.png", parameters={}
+2022-11-08 15:21:53.145 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:21:53.146 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:42.102  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=admin, 当前在线人数为：1
+2022-11-08 15:22:42.113  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[0]发送消息{"users":[{"username":"admin"}]}
+2022-11-08 15:22:43.130 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:22:43.131 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:22:43.131  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:43.131 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:43.132 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d98b42e] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:43.133 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:43.136 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d98b42e]
+2022-11-08 15:22:43.137 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:43.137 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d758ee0] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:43.137 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:43.138 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d758ee0]
+2022-11-08 15:22:43.138 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:43.138 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=8, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:22:43.139 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:43.783 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-11-08 15:22:43.784 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:43.784  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:22:43.784 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:43.785 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-11-08 15:22:43.785 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:43.786  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:43.786 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:43.786 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@345155c] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:43.796 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:43.831 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@345155c]
+2022-11-08 15:22:43.831 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:43.831 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302fe383] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:43.831 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:43.833 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302fe383]
+2022-11-08 15:22:43.834 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:43.834 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:22:43.835 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:48.675 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/getTimes?pageNum=1&pageSize=20", parameters={masked}
+2022-11-08 15:22:48.675 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:48.675  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:22:48.675 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:48.677 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=20", parameters={masked}
+2022-11-08 15:22:48.677 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:48.678  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:48.678 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:48.678 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@128753eb] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:48.682 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:48.686 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@128753eb]
+2022-11-08 15:22:48.686 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:48.686 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7db5f0] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:48.686 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:48.688 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d7db5f0]
+2022-11-08 15:22:48.689 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:48.689 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=20, startRow=0, en (truncated)...]
+2022-11-08 15:22:48.690 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:52.542 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/time/times", parameters={}
+2022-11-08 15:22:52.542 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
+2022-11-08 15:22:52.542  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:22:52.543 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:52.545 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
+2022-11-08 15:22:52.545 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
+2022-11-08 15:22:52.546  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:52.546 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to ["admin"]
+2022-11-08 15:22:52.616 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:52.616 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a0e6b86] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:52.617 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:52.618 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a0e6b86]
+2022-11-08 15:22:52.618 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:52.618 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36dc8c54] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:52.619 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:52.665 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36dc8c54]
+2022-11-08 15:22:52.665 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:52.666 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=签到成功!)]
+2022-11-08 15:22:52.666 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:54.913 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:22:54.913 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:22:54.914  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:54.914 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:54.915 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659a21fa] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:54.916 DEBUG 7704 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:54.919 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659a21fa]
+2022-11-08 15:22:54.920 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:54.920 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c456a92] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:54.920 DEBUG 7704 --- [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:54.921 DEBUG 7704 --- [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c456a92]
+2022-11-08 15:22:54.921 DEBUG 7704 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:54.922 DEBUG 7704 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=8, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:22:54.922 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:55.445 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-11-08 15:22:55.445 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:55.445  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:55.446 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:55.446 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32d26f85] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:55.454 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:55.470 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32d26f85]
+2022-11-08 15:22:55.471 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:55.471 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60513668] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:55.471 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:55.472 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60513668]
+2022-11-08 15:22:55.472 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:55.473 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:22:55.473 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:58.322 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/getTimes?pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:22:58.323 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:58.323  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:22:58.323 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:22:58.325 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:22:58.325 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:22:58.325  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:22:58.326 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:58.326 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19a79b5f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:58.331 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:58.336 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19a79b5f]
+2022-11-08 15:22:58.337 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:22:58.337 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@565d6c20] was not registered for synchronization because synchronization is not active
+2022-11-08 15:22:58.337 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:22:58.339 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@565d6c20]
+2022-11-08 15:22:58.339 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:22:58.340 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:22:58.340 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:44.350 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/role/get?pageSize=2&pageNum=1", parameters={masked}
+2022-11-08 15:23:44.350 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.RoleController#getRoles(Integer, Integer)
+2022-11-08 15:23:44.350  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:23:44.351 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:44.352 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/role/get?pageSize=2&pageNum=1", parameters={masked}
+2022-11-08 15:23:44.352 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.RoleController#getRoles(Integer, Integer)
+2022-11-08 15:23:44.353  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:23:44.353 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:44.353 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ea2927d] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:44.354 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:44.368 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ea2927d]
+2022-11-08 15:23:44.369 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:44.369 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3741fefb] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:44.369 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:44.371 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3741fefb]
+2022-11-08 15:23:44.371 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:23:44.372 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=5, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:23:44.373 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:47.372 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/role/get?pageSize=20&pageNum=1", parameters={masked}
+2022-11-08 15:23:47.372 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.RoleController#getRoles(Integer, Integer)
+2022-11-08 15:23:47.373  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:23:47.373 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:47.375 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/role/get?pageSize=20&pageNum=1", parameters={masked}
+2022-11-08 15:23:47.375 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.RoleController#getRoles(Integer, Integer)
+2022-11-08 15:23:47.375  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:23:47.376 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:47.376 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29529122] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:47.377 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:47.381 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29529122]
+2022-11-08 15:23:47.381 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:47.381 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2edab7b9] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:47.381 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:47.385 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2edab7b9]
+2022-11-08 15:23:47.385 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:23:47.386 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=5, data=Page{count=true, pageNum=1, pageSize=20, startRow=0, en (truncated)...]
+2022-11-08 15:23:47.387 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:50.103 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:23:50.103 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:23:50.104  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:23:50.104 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:50.104 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d39f54] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:50.106 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:50.110 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d39f54]
+2022-11-08 15:23:50.110 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:50.111 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e3d5d8d] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:50.111 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:50.112 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e3d5d8d]
+2022-11-08 15:23:50.113 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:23:50.113 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, en (truncated)...]
+2022-11-08 15:23:50.114 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:50.132 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-07-22%20001437.png", parameters={}
+2022-11-08 15:23:50.133 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:50.136 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:50.141 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152449.png", parameters={}
+2022-11-08 15:23:50.141 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:50.143 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:50.147 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-09%20143903.png", parameters={}
+2022-11-08 15:23:50.148 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:50.151 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:50.156 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152332.png", parameters={}
+2022-11-08 15:23:50.156 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:50.157 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.691 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=1&pageSize=20&filename=", parameters={masked}
+2022-11-08 15:23:53.691 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:23:53.691  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:23:53.691 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.693 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=20&filename=", parameters={masked}
+2022-11-08 15:23:53.693 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:23:53.694  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:23:53.694 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:53.694 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23cf19ee] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:53.696 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:53.710 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23cf19ee]
+2022-11-08 15:23:53.711 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:53.711 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c8f594f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:53.711 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:53.712 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c8f594f]
+2022-11-08 15:23:53.712 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:23:53.713 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=20, startRow=0, e (truncated)...]
+2022-11-08 15:23:53.714 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.725 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-09%20105010.png", parameters={}
+2022-11-08 15:23:53.725 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.727 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.732 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20192958.png", parameters={}
+2022-11-08 15:23:53.733 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.735 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.742 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152427.png", parameters={}
+2022-11-08 15:23:53.742 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.743 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.749 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/ct.gif", parameters={}
+2022-11-08 15:23:53.749 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.751 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.761 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/25097db9352238981be08103bd10de9.jpg", parameters={}
+2022-11-08 15:23:53.761 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.764 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.772 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
+2022-11-08 15:23:53.772 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.774 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.780 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/gg.png", parameters={}
+2022-11-08 15:23:53.780 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.782 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:53.784 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/k.png", parameters={}
+2022-11-08 15:23:53.784 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:23:53.787 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:59.529 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=1&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:23:59.529 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:23:59.529  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:23:59.530 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:23:59.531 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:23:59.531 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:23:59.532  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:23:59.532 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:59.532 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26d9ed4f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:59.534 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:59.538 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26d9ed4f]
+2022-11-08 15:23:59.538 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:23:59.538 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2137c067] was not registered for synchronization because synchronization is not active
+2022-11-08 15:23:59.539 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:23:59.542 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2137c067]
+2022-11-08 15:23:59.542 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:23:59.542 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, e (truncated)...]
+2022-11-08 15:23:59.543 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:07.141 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=2&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:24:07.141 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:07.142  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:07.142 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:07.144 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=2&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:24:07.144 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:07.144  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:07.145 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:07.145 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c6aea2a] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:07.146 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:07.148 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c6aea2a]
+2022-11-08 15:24:07.149 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:07.149 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256aa8ff] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:07.149 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:07.150 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@256aa8ff]
+2022-11-08 15:24:07.150 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:07.150 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=2, pageSize=10, startRow=10,  (truncated)...]
+2022-11-08 15:24:07.151 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:20.083 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=3&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:24:20.083 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:20.084  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:20.084 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:20.086 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=3&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:24:20.086 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:20.086  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:20.086 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:20.086 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f7ead4b] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:20.087 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:20.091 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f7ead4b]
+2022-11-08 15:24:20.091 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:20.091 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aa3f379] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:20.091 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:20.093 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aa3f379]
+2022-11-08 15:24:20.093 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:20.093 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=3, pageSize=10, startRow=20,  (truncated)...]
+2022-11-08 15:24:20.094 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:20.116 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
+2022-11-08 15:24:20.116 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:20.118 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:20.123 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20221025_203048.png", parameters={}
+2022-11-08 15:24:20.124 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:20.127 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:20.129 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/R-C.png", parameters={}
+2022-11-08 15:24:20.129 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:20.141 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:22.390 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=2&pageSize=10&filename=", parameters={masked}
+2022-11-08 15:24:22.391 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:22.391  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:22.391 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:22.391 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@512f8d31] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:22.392 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:22.396 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@512f8d31]
+2022-11-08 15:24:22.396 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:22.397 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c77a2bc] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:22.397 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:22.399 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c77a2bc]
+2022-11-08 15:24:22.399 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:22.400 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=2, pageSize=10, startRow=10,  (truncated)...]
+2022-11-08 15:24:22.400 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:34.759 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=10&username=", parameters={masked}
+2022-11-08 15:24:34.759 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:34.760  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:34.760 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:34.760 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67c19812] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:34.761 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:34.764 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67c19812]
+2022-11-08 15:24:34.764 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:34.764 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56b6b9f9] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:34.764 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:34.765 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56b6b9f9]
+2022-11-08 15:24:34.765 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:34.765 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:24:34.766 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:40.611 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=1&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:40.612 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:40.612  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:40.612 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:40.614 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:40.615 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:40.615  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:40.616 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:40.616 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@496598d7] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:40.618 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:40.622 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@496598d7]
+2022-11-08 15:24:40.622 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:40.623 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@231adaa] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:40.623 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:40.624 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@231adaa]
+2022-11-08 15:24:40.625 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:40.625 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:24:40.626 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:41.974 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=4&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:41.974 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:41.975  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:41.975 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:41.976 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=4&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:41.977 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:41.977  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:41.977 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:41.977 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45953593] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:41.978 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:41.980 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45953593]
+2022-11-08 15:24:41.980 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:41.980 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722963f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:41.980 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:41.981 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722963f]
+2022-11-08 15:24:41.981 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:41.981 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=4, pageSize=2, startRow=6, end (truncated)...]
+2022-11-08 15:24:41.982 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:43.076 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=3&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:43.077 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:43.077  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:43.077 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:43.079 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=3&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:43.079 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:43.079  INFO 7704 --- [http-nio-8080-exec-2] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:43.080 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:43.080 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@796e9dea] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:43.080 DEBUG 7704 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:43.082 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@796e9dea]
+2022-11-08 15:24:43.083 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:43.083 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66d273e9] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:43.083 DEBUG 7704 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:43.084 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66d273e9]
+2022-11-08 15:24:43.084 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:43.084 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=3, pageSize=2, startRow=4, end (truncated)...]
+2022-11-08 15:24:43.084 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:43.773 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=2&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:43.773 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:43.773  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:43.774 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:43.775 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=2&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:43.775 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:43.776  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:43.776 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:43.776 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f4cfa27] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:43.777 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:43.779 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f4cfa27]
+2022-11-08 15:24:43.779 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:43.779 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29971b7] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:43.779 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:43.780 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29971b7]
+2022-11-08 15:24:43.780 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:43.780 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=2, pageSize=2, startRow=2, end (truncated)...]
+2022-11-08 15:24:43.781 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:44.290 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=2&username=", parameters={masked}
+2022-11-08 15:24:44.290 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:44.291  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:44.291 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:44.291 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e8be06c] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:44.292 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:44.296 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e8be06c]
+2022-11-08 15:24:44.296 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:44.296 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b3bf085] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:44.296 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:44.297 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b3bf085]
+2022-11-08 15:24:44.297 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:44.298 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:24:44.298 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:45.701 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=1&pageSize=5&username=", parameters={masked}
+2022-11-08 15:24:45.701 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:45.701  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:45.701 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:45.703 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=5&username=", parameters={masked}
+2022-11-08 15:24:45.703 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:45.703  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:45.703 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:45.703 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e04da60] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:45.704 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:45.708 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e04da60]
+2022-11-08 15:24:45.708 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:45.708 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a878159] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:45.709 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:45.710 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a878159]
+2022-11-08 15:24:45.710 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:45.711 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, end (truncated)...]
+2022-11-08 15:24:45.711 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:46.998 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/user/select?pageNum=2&pageSize=5&username=", parameters={masked}
+2022-11-08 15:24:46.998 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:46.998  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:24:46.999 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:47.000 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=2&pageSize=5&username=", parameters={masked}
+2022-11-08 15:24:47.001 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:47.001  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:47.001 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:47.001 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4941e9c8] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:47.002 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:47.005 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4941e9c8]
+2022-11-08 15:24:47.006 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:47.006 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cf636cf] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:47.006 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:47.007 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cf636cf]
+2022-11-08 15:24:47.007 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:47.007 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=2, pageSize=5, startRow=5, end (truncated)...]
+2022-11-08 15:24:47.008 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:49.035 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=5&username=", parameters={masked}
+2022-11-08 15:24:49.035 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:24:49.036  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:49.036 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:49.036 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6392a163] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:49.037 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:49.039 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6392a163]
+2022-11-08 15:24:49.039 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:49.039 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@300dfd4e] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:49.040 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:49.041 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@300dfd4e]
+2022-11-08 15:24:49.041 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:49.041 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, end (truncated)...]
+2022-11-08 15:24:49.041 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:50.496 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:24:50.496 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:24:50.497  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:24:50.497 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:50.497 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36654488] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:50.498 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:50.500 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36654488]
+2022-11-08 15:24:50.500 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:24:50.500 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66512ac7] was not registered for synchronization because synchronization is not active
+2022-11-08 15:24:50.500 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:24:50.501 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66512ac7]
+2022-11-08 15:24:50.501 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:24:50.501 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, en (truncated)...]
+2022-11-08 15:24:50.502 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:50.512 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-07-22%20001437.png", parameters={}
+2022-11-08 15:24:50.512 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:50.513 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:50.518 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152449.png", parameters={}
+2022-11-08 15:24:50.518 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:50.519 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:24:50.526 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-09%20143903.png", parameters={}
+2022-11-08 15:24:50.526 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:24:50.528 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:21.862 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=6&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:21.863 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:21.864  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:25:21.864 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:21.866 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=6&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:21.866 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:21.867  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:25:21.867 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:21.867 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e128f7b] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:21.868 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:21.871 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e128f7b]
+2022-11-08 15:25:21.871 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:21.871 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@341e3520] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:21.871 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:21.873 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@341e3520]
+2022-11-08 15:25:21.873 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:21.873 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=6, pageSize=5, startRow=25, e (truncated)...]
+2022-11-08 15:25:21.874 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:23.098 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=4&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:23.099 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:23.099  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:25:23.099 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:23.101 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=4&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:23.101 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:23.102  INFO 7704 --- [http-nio-8080-exec-8] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:25:23.102 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:23.102 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f7bdc0] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:23.103 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:23.106 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53f7bdc0]
+2022-11-08 15:25:23.106 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:23.106 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7acb1d55] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:23.106 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:23.107 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7acb1d55]
+2022-11-08 15:25:23.107 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:23.108 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=4, pageSize=5, startRow=15, e (truncated)...]
+2022-11-08 15:25:23.108 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:23.960 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=3&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:23.961 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:23.961  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:25:23.961 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:23.963 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=3&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:23.963 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:23.964  INFO 7704 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:25:23.964 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:23.964 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@441b60a1] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:23.965 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:23.967 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@441b60a1]
+2022-11-08 15:25:23.967 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:23.967 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d3aae8d] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:23.967 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:23.968 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d3aae8d]
+2022-11-08 15:25:23.968 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:23.968 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=3, pageSize=5, startRow=10, e (truncated)...]
+2022-11-08 15:25:23.969 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:24.559 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/get?pageNum=2&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:24.559 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:24.559  INFO 7704 --- [http-nio-8080-exec-10] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:25:24.560 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:24.562 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=2&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:24.562 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:24.562  INFO 7704 --- [http-nio-8080-exec-2] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:25:24.563 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:24.563 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@646b9b3e] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:24.564 DEBUG 7704 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:24.567 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@646b9b3e]
+2022-11-08 15:25:24.567 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:24.567 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59c9be4a] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:24.568 DEBUG 7704 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:24.569 DEBUG 7704 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59c9be4a]
+2022-11-08 15:25:24.569 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:24.569 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=2, pageSize=5, startRow=5, en (truncated)...]
+2022-11-08 15:25:24.569 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:24.581 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-09%20105010.png", parameters={}
+2022-11-08 15:25:24.581 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:25:24.583 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:24.591 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-05%20192958.png", parameters={}
+2022-11-08 15:25:24.591 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:25:24.593 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:25.340 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:25:25.340 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:25:25.341  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTIwNX0.r-iEXPJhB8w3TIe3T1dzWppPRgAUUrWIM-Yh787VXCQ
+2022-11-08 15:25:25.341 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:25.341 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321cb6f7] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:25.341 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:25.344 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@321cb6f7]
+2022-11-08 15:25:25.344 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:25.344 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b6ee14f] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:25.344 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:25.345 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b6ee14f]
+2022-11-08 15:25:25.345 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:25.345 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, en (truncated)...]
+2022-11-08 15:25:25.346 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:28.627 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/file/bol", parameters={}
+2022-11-08 15:25:28.627 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#bol(Files)
+2022-11-08 15:25:28.628 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:28.629 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/file/bol", parameters={}
+2022-11-08 15:25:28.629 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#bol(Files)
+2022-11-08 15:25:28.633 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [Files(id=5, filename=屏幕截图 2022-04-09 143903.png, type=png, size=301211, avater=http://localhost:8080 (truncated)...]
+2022-11-08 15:25:28.633 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:28.633 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c0a3123] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:28.633 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:28.645 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c0a3123]
+2022-11-08 15:25:28.645 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:28.645 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-08 15:25:28.645 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:29.273 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/file/bol", parameters={}
+2022-11-08 15:25:29.274 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#bol(Files)
+2022-11-08 15:25:29.274 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [Files(id=5, filename=屏幕截图 2022-04-09 143903.png, type=png, size=301211, avater=http://localhost:8080 (truncated)...]
+2022-11-08 15:25:29.275 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:29.275 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31b8e187] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:29.275 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:29.280 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31b8e187]
+2022-11-08 15:25:29.280 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:29.280 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-08 15:25:29.280 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:30.929 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/file/bol", parameters={}
+2022-11-08 15:25:30.929 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#bol(Files)
+2022-11-08 15:25:30.930 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [Files(id=5, filename=屏幕截图 2022-04-09 143903.png, type=png, size=301211, avater=http://localhost:8080 (truncated)...]
+2022-11-08 15:25:30.930 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:30.930 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea9fbd9] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:30.930 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:30.946 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea9fbd9]
+2022-11-08 15:25:30.946 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:30.946 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-08 15:25:30.946 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:39.798 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2022-11-08 15:25:39.799 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
+2022-11-08 15:25:39.799 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [User(id=null, username=张明辉, password=1234, createTime=null, avater=null, token=null, role=null)]
+2022-11-08 15:25:39.799 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:39.800 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70775f01] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:39.800 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:39.801 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70775f01]
+2022-11-08 15:25:39.802 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:39.802 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56dd7abc] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:39.803 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:39.804 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56dd7abc]
+2022-11-08 15:25:39.805 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:39.805 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a0de45] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:39.805 DEBUG 7704 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:39.806 DEBUG 7704 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a0de45]
+2022-11-08 15:25:39.806 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:39.806 DEBUG 7704 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=User(id=null, username=张明辉, password=1234, createTime=null, avater=htt (truncated)...]
+2022-11-08 15:25:39.807 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:39.908 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/front/getimg", parameters={}
+2022-11-08 15:25:39.908 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.Front.FrontController#getImg()
+2022-11-08 15:25:39.909 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:25:39.909 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8a2c109] was not registered for synchronization because synchronization is not active
+2022-11-08 15:25:39.910 DEBUG 7704 --- [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:25:39.913 DEBUG 7704 --- [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8a2c109]
+2022-11-08 15:25:39.914 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:39.914 DEBUG 7704 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=[http://localhost:8080/file/img/屏幕截图 2022-04-23 152449.png, http://loc (truncated)...]
+2022-11-08 15:25:39.915 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:53.196 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/alipay/pay?subject=%E6%89%8B%E6%9C%BA&traceNo=1667892353%E6%89%8B%E6%9C%BA100&totalAmount=100", parameters={masked}
+2022-11-08 15:25:53.196 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.Alipay.AliPayController#pay(Alipay)
+2022-11-08 15:25:53.310 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:25:53.310 DEBUG 7704 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["<form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?alipay_sdk (truncated)..."]
+2022-11-08 15:25:53.311 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:25:53.456 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-11-08 15:25:53.460 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-11-08 15:25:53.461  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-11-08 15:25:53.466 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-11-08 15:25:53.466 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-11-08 15:25:53.472 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-11-08 15:25:53.475 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-11-08 15:25:53.475  INFO 7704 --- [http-nio-8080-exec-1] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-11-08 15:25:53.475 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-11-08 15:26:28.059 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2022-11-08 15:26:28.060 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
+2022-11-08 15:26:28.061 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [User(id=null, username=admin, password=1234, createTime=null, avater=null, token=null, role=null)]
+2022-11-08 15:26:28.062 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:28.062 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58fcab4e] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:28.063 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:28.064 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58fcab4e]
+2022-11-08 15:26:28.064 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:28.064 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f46907b] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:28.065 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:28.066 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f46907b]
+2022-11-08 15:26:28.066 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:28.066 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c2f4574] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:28.066 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:28.067 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c2f4574]
+2022-11-08 15:26:28.067 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:28.067 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=User(id=null, username=admin, password=1234, createTime=null, avater=h (truncated)...]
+2022-11-08 15:26:28.068 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:30.163 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/edit/get?titleName=&pageNum=1&pageSize=10", parameters={masked}
+2022-11-08 15:26:30.163 DEBUG 7704 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.EditorController#getEditor(String, Integer, Integer)
+2022-11-08 15:26:30.163  INFO 7704 --- [http-nio-8080-exec-7] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTU4OH0._OOwPvkBz6I3vBNprUrMazXSJpOenFjjtGVEa24FKYI
+2022-11-08 15:26:30.164 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:30.164 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ef55979] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:30.165 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:30.167 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ef55979]
+2022-11-08 15:26:30.167 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:30.167 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502cb0fd] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:30.167 DEBUG 7704 --- [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:30.168 DEBUG 7704 --- [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502cb0fd]
+2022-11-08 15:26:30.169 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:30.169 DEBUG 7704 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=8, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:26:30.169 DEBUG 7704 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:32.007 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/get?pageNum=1&pageSize=5&filename=", parameters={masked}
+2022-11-08 15:26:32.008 DEBUG 7704 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#getFiles(Integer, Integer, String)
+2022-11-08 15:26:32.008  INFO 7704 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTU4OH0._OOwPvkBz6I3vBNprUrMazXSJpOenFjjtGVEa24FKYI
+2022-11-08 15:26:32.008 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:32.008 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59d45153] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:32.009 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:32.011 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59d45153]
+2022-11-08 15:26:32.011 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:32.011 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ff6f74] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:32.011 DEBUG 7704 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:32.012 DEBUG 7704 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ff6f74]
+2022-11-08 15:26:32.012 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:32.013 DEBUG 7704 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=27, data=Page{count=true, pageNum=1, pageSize=5, startRow=0, en (truncated)...]
+2022-11-08 15:26:32.014 DEBUG 7704 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:33.788 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/file/bol", parameters={}
+2022-11-08 15:26:33.788 DEBUG 7704 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#bol(Files)
+2022-11-08 15:26:33.789 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [Files(id=5, filename=屏幕截图 2022-04-09 143903.png, type=png, size=301211, avater=http://localhost:8080 (truncated)...]
+2022-11-08 15:26:33.789 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:33.789 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24df9809] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:33.790 DEBUG 7704 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:33.804 DEBUG 7704 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24df9809]
+2022-11-08 15:26:33.804 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:33.804 DEBUG 7704 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-08 15:26:33.804 DEBUG 7704 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:35.239 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/select?pageNum=1&pageSize=10&username=", parameters={masked}
+2022-11-08 15:26:35.239 DEBUG 7704 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#UserTo(Integer, Integer, String)
+2022-11-08 15:26:35.239  INFO 7704 --- [http-nio-8080-exec-9] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTU4OH0._OOwPvkBz6I3vBNprUrMazXSJpOenFjjtGVEa24FKYI
+2022-11-08 15:26:35.239 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:35.240 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a681603] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:35.240 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:35.242 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a681603]
+2022-11-08 15:26:35.242 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:35.242 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b76aa1] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:35.242 DEBUG 7704 --- [http-nio-8080-exec-9] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:35.243 DEBUG 7704 --- [http-nio-8080-exec-9] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b76aa1]
+2022-11-08 15:26:35.243 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:35.243 DEBUG 7704 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=7, data=Page{count=true, pageNum=1, pageSize=10, startRow=0, en (truncated)...]
+2022-11-08 15:26:35.244 DEBUG 7704 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:35.257 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
+2022-11-08 15:26:35.257 DEBUG 7704 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:26:35.258 DEBUG 7704 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:35.262 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152427.png", parameters={}
+2022-11-08 15:26:35.262 DEBUG 7704 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:26:35.264 DEBUG 7704 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:35.272 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_20221025_203048.png", parameters={}
+2022-11-08 15:26:35.273 DEBUG 7704 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:26:35.279 DEBUG 7704 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:35.284 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
+2022-11-08 15:26:35.284 DEBUG 7704 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-11-08 15:26:35.285 DEBUG 7704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:39.031 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/role/get?pageSize=2&pageNum=1", parameters={masked}
+2022-11-08 15:26:39.032 DEBUG 7704 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.RoleController#getRoles(Integer, Integer)
+2022-11-08 15:26:39.032  INFO 7704 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTU4OH0._OOwPvkBz6I3vBNprUrMazXSJpOenFjjtGVEa24FKYI
+2022-11-08 15:26:39.033 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:39.033 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42babef0] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:39.033 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:39.047 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42babef0]
+2022-11-08 15:26:39.047 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:39.047 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d3033a6] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:39.048 DEBUG 7704 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:39.051 DEBUG 7704 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d3033a6]
+2022-11-08 15:26:39.051 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:39.051 DEBUG 7704 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=5, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:26:39.051 DEBUG 7704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-08 15:26:39.680 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-11-08 15:26:39.680 DEBUG 7704 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-11-08 15:26:39.681  INFO 7704 --- [http-nio-8080-exec-5] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZG1pbiIsImV4cCI6MTY2Nzg5OTU4OH0._OOwPvkBz6I3vBNprUrMazXSJpOenFjjtGVEa24FKYI
+2022-11-08 15:26:39.681 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:39.681 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c18b40] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:39.684 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:39.686 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c18b40]
+2022-11-08 15:26:39.686 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-11-08 15:26:39.686 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f5d9b3] was not registered for synchronization because synchronization is not active
+2022-11-08 15:26:39.686 DEBUG 7704 --- [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@37f74296] will not be managed by Spring
+2022-11-08 15:26:39.688 DEBUG 7704 --- [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f5d9b3]
+2022-11-08 15:26:39.688 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-08 15:26:39.688 DEBUG 7704 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-11-08 15:26:39.688 DEBUG 7704 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

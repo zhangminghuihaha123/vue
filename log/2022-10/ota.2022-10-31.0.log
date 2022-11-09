@@ -1,0 +1,167 @@
+2022-10-31 14:43:17.001  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : Starting DemoApplication using Java 13.0.1 on LAPTOP-IG8T500K with PID 12368 (C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes started by zhangminghui in C:\Users\zhangminghui\IdeaProjects\fenli02)
+2022-10-31 14:43:17.002  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 14:43:17.058  INFO 12368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 14:43:17.059  INFO 12368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\EditMapper.class]
+2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\FileMapper.class]
+2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\RoleMapper.class]
+2022-10-31 14:43:17.615 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\TimeMapper.class]
+2022-10-31 14:43:17.616 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\com\zmh\demo\mapper\UserMapper.class]
+2022-10-31 14:43:17.616 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'editMapper' and 'com.zmh.demo.mapper.EditMapper' mapperInterface
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'editMapper'.
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'fileMapper' and 'com.zmh.demo.mapper.FileMapper' mapperInterface
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'fileMapper'.
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'roleMapper' and 'com.zmh.demo.mapper.RoleMapper' mapperInterface
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'roleMapper'.
+2022-10-31 14:43:17.617 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'timeMapper' and 'com.zmh.demo.mapper.TimeMapper' mapperInterface
+2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'timeMapper'.
+2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.zmh.demo.mapper.UserMapper' mapperInterface
+2022-10-31 14:43:17.618 DEBUG 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-10-31 14:43:17.675  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-31 14:43:17.677  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-31 14:43:17.698  INFO 12368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-10-31 14:43:17.795  WARN 12368 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qianhouduan.fenli.mapping]' package. Please check your configuration.
+2022-10-31 14:43:18.320  INFO 12368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-31 14:43:18.329  INFO 12368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 14:43:18.329  INFO 12368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-31 14:43:18.451  INFO 12368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 14:43:18.451  INFO 12368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1391 ms
+2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.zmh.demo.enty' for aliases
+2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor@396e4428'
+2022-10-31 14:43:18.619 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2022-10-31 14:43:18.648  INFO 12368 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-31 14:43:18.864 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\FileMapping.xml]'
+2022-10-31 14:43:18.890 DEBUG 12368 --- [restartedMain] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [C:\Users\zhangminghui\IdeaProjects\fenli02\target\classes\mapping\UserMapping.xml]'
+2022-10-31 14:43:18.993  INFO 12368 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static final cn.hutool.log.Log com.zmh.demo.interceptor.WebInterceptor.log
+2022-10-31 14:43:19.105 DEBUG 12368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-31 14:43:19.161 DEBUG 12368 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 33 mappings in 'requestMappingHandlerMapping'
+2022-10-31 14:43:19.177 DEBUG 12368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /static/**] in 'resourceHandlerMapping'
+2022-10-31 14:43:19.179 DEBUG 12368 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**] in 'defaultServletHandlerMapping'
+2022-10-31 14:43:19.184 DEBUG 12368 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-31 14:43:19.541  INFO 12368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 14:43:19.556 DEBUG 12368 --- [restartedMain] o.s.w.s.s.s.ServerEndpointExporter       : Registering @ServerEndpoint class: class com.zmh.demo.socket.WebSocketServer
+2022-10-31 14:43:19.777  INFO 12368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-31 14:43:19.785  INFO 12368 --- [restartedMain] com.zmh.demo.DemoApplication             : Started DemoApplication in 3.317 seconds (JVM running for 4.589)
+2022-10-31 14:44:08.897  INFO 12368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-31 14:44:08.898  INFO 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-10-31 14:44:08.898 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a8e0570
+2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5ed01e9a
+2022-10-31 14:44:08.899 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-10-31 14:44:08.899  INFO 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-31 14:44:08.905 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
+2022-10-31 14:44:08.911 DEBUG 12368 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-10-31 14:44:08.951 DEBUG 12368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:11.197 DEBUG 12368 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
+2022-10-31 14:44:11.197 DEBUG 12368 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
+2022-10-31 14:44:11.221  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
+2022-10-31 14:44:11.223 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to ["zmh"]
+2022-10-31 14:44:11.311 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:11.316 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5db62c] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:11.362 DEBUG 12368 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:11.391 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c5db62c]
+2022-10-31 14:44:11.393 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:11.393 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52b4261c] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:11.394 DEBUG 12368 --- [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:11.400 DEBUG 12368 --- [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52b4261c]
+2022-10-31 14:44:11.435 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-31 14:44:11.436 DEBUG 12368 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=签到成功!)]
+2022-10-31 14:44:11.445 DEBUG 12368 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:12.130 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/time/times", parameters={}
+2022-10-31 14:44:12.131 DEBUG 12368 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.TimeController#time(String)
+2022-10-31 14:44:12.132  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
+2022-10-31 14:44:12.132 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to ["zmh"]
+2022-10-31 14:44:12.133 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:12.133 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d565e11] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:12.135 DEBUG 12368 --- [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:12.147 DEBUG 12368 --- [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d565e11]
+2022-10-31 14:44:12.147 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-31 14:44:12.148 DEBUG 12368 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=401, msg=今天已签到,请不要重复签到!, data=null)]
+2022-10-31 14:44:12.149 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:14.284 DEBUG 12368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-10-31 14:44:14.285 DEBUG 12368 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-10-31 14:44:14.285  INFO 12368 --- [http-nio-8080-exec-2] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
+2022-10-31 14:44:14.289 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:14.289 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4388b0e] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:14.339 DEBUG 12368 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:14.351 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4388b0e]
+2022-10-31 14:44:14.351 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:14.352 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad92d32] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:14.352 DEBUG 12368 --- [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad92d32]
+2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-31 14:44:14.354 DEBUG 12368 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-10-31 14:44:14.370 DEBUG 12368 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:33.577 DEBUG 12368 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/file/img/8e2e9b9e65904cce9375affdbd2b146.jpg", parameters={}
+2022-10-31 14:44:33.577 DEBUG 12368 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-10-31 14:44:33.579 DEBUG 12368 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:33.643 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/getTimes?pageNum=1&pageSize=2", parameters={masked}
+2022-10-31 14:44:33.643 DEBUG 12368 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserServiceController#toset(Integer, Integer)
+2022-10-31 14:44:33.643  INFO 12368 --- [http-nio-8080-exec-6] com.zmh.demo.interceptor.WebInterceptor  : token================>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ6bWgiLCJleHAiOjE2NjcyMDUyNDN9.D5cZ_nWD7gBj_qpiJBeNRiSpOhiteNWt1ljH-DLK3m0
+2022-10-31 14:44:33.644 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:33.644 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c71003] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:33.649 DEBUG 12368 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c71003]
+2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:33.657 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483df4b0] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:33.658 DEBUG 12368 --- [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@483df4b0]
+2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-31 14:44:33.660 DEBUG 12368 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data={total=4, data=Page{count=true, pageNum=1, pageSize=2, startRow=0, end (truncated)...]
+2022-10-31 14:44:33.661 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:43.794 DEBUG 12368 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2022-10-31 14:44:43.796 DEBUG 12368 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.UserController#tologin(User)
+2022-10-31 14:44:43.840 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=utf-8" to [User(id=null, username=zmh1, password=1234, createTime=null, avater=null, token=null, role=null)]
+2022-10-31 14:44:43.842 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:43.843 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a891db] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:43.843 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:43.845 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39a891db]
+2022-10-31 14:44:43.873 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:43.873 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4070a6a1] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:43.875 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:43.876 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4070a6a1]
+2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d84ae56] was not registered for synchronization because synchronization is not active
+2022-10-31 14:44:43.877 DEBUG 12368 --- [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction         : JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3434b94d] will not be managed by Spring
+2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d84ae56]
+2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-31 14:44:43.880 DEBUG 12368 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=200, msg=成功, data=User(id=null, username=zmh1, password=1234, createTime=null, avater=ht (truncated)...]
+2022-10-31 14:44:43.882 DEBUG 12368 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:43.935 DEBUG 12368 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
+2022-10-31 14:44:43.936 DEBUG 12368 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-10-31 14:44:43.939 DEBUG 12368 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:44:45.236  INFO 12368 --- [http-nio-8080-exec-10] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：1
+2022-10-31 14:44:45.246  INFO 12368 --- [http-nio-8080-exec-10] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[0]发送消息{"users":[{"username":"zmh1"}]}
+2022-10-31 14:44:47.711  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：1
+2022-10-31 14:44:47.712  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[1]发送消息{"users":[{"username":"zmh1"}]}
+2022-10-31 14:44:53.371  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=zmh1的用户session, 当前在线人数为：0
+2022-10-31 14:45:02.478 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-10-31 14:45:02.482 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-10-31 14:45:02.484  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 直接通过
+2022-10-31 14:45:02.484 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-10-31 14:45:02.484 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-10-31 14:45:02.490 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-10-31 14:45:02.492 DEBUG 12368 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-10-31 14:45:02.493  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.interceptor.WebInterceptor  : 拦截+++++++++++++++>null
+2022-10-31 14:45:02.493 DEBUG 12368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-10-31 14:45:08.832 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-06-06%20082600.png", parameters={}
+2022-10-31 14:45:08.833 DEBUG 12368 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-10-31 14:45:08.845 DEBUG 12368 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:45:12.150  INFO 12368 --- [http-nio-8080-exec-8] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=admin, 当前在线人数为：1
+2022-10-31 14:45:12.150  INFO 12368 --- [http-nio-8080-exec-8] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"users":[{"username":"admin"}]}
+2022-10-31 14:45:17.347  INFO 12368 --- [http-nio-8080-exec-9] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=zmh1的用户session, 当前在线人数为：1
+2022-10-31 14:45:17.741 DEBUG 12368 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/file/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-04-23%20152345.png", parameters={}
+2022-10-31 14:45:17.741 DEBUG 12368 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zmh.demo.controller.FileController#download(String, HttpServletResponse)
+2022-10-31 14:45:17.748  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 有新用户加入，username=zmh1, 当前在线人数为：2
+2022-10-31 14:45:17.748  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[3]发送消息{"users":[{"username":"zmh1"},{"username":"admin"}]}
+2022-10-31 14:45:17.749  INFO 12368 --- [http-nio-8080-exec-1] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"users":[{"username":"zmh1"},{"username":"admin"}]}
+2022-10-31 14:45:17.753 DEBUG 12368 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-31 14:45:26.123  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 服务端收到用户username=zmh1的消息:{"from":"zmh1","to":"admin","text":"12313123123213"}
+2022-10-31 14:45:26.139  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[2]发送消息{"from":"zmh1","text":"12313123123213"}
+2022-10-31 14:45:26.140  INFO 12368 --- [http-nio-8080-exec-4] com.zmh.demo.socket.WebSocketServer      : 发送给用户username=admin，消息：{"from":"zmh1","text":"12313123123213"}
+2022-10-31 14:45:29.759  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 服务端收到用户username=admin的消息:{"from":"admin","to":"zmh1","text":"12312313"}
+2022-10-31 14:45:29.760  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 服务端给客户端[3]发送消息{"from":"admin","text":"12312313"}
+2022-10-31 14:45:29.760  INFO 12368 --- [http-nio-8080-exec-3] com.zmh.demo.socket.WebSocketServer      : 发送给用户username=zmh1，消息：{"from":"admin","text":"12312313"}
+2022-10-31 14:45:45.730  INFO 12368 --- [http-nio-8080-exec-5] com.zmh.demo.socket.WebSocketServer      : 有一连接关闭，移除username=admin的用户session, 当前在线人数为：1
