@@ -49,6 +49,12 @@ const routes = [
       },
       {
         path: 'people',name: '个人管理',component: ()=> import('../view/People')
+      },
+      {
+        path: 'myStore',name: 'MyStore',component: ()=> import('../view/Front/MyStore')
+      },
+      {
+        path: 'order',name: 'order',component: ()=> import('../view/Front/Order')
       }
     ]
   },

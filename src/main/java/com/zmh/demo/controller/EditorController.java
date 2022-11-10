@@ -4,6 +4,7 @@ import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
 import com.zmh.demo.enty.Editor;
+import com.zmh.demo.interceptor.MyInterFace.AcrossToken;
 import com.zmh.demo.mapper.EditMapper;
 import com.zmh.demo.service.EditService;
 import com.zmh.demo.util.CardToCheck;
@@ -63,5 +64,18 @@ public class EditorController {
     public  Result deletes(@RequestBody List<Integer> ids){
         editMapper.deleteBatchIds(ids);
         return Result.success();
+    }
+
+    @GetMapping("/getAll")
+    @AcrossToken
+    public Result getAll(){
+        QueryWrapper wrapper=new QueryWrapper();
+        return Result.success(editMapper.selectList(wrapper));
+    }
+
+    @GetMapping("/getOne")
+    @AcrossToken
+    public Result getOne(@RequestParam Integer id){
+        return Result.success(editMapper.selectById(id));
     }
 }

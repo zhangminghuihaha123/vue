@@ -2,6 +2,7 @@ package com.zmh.demo.interceptor;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.log.Log;
+import com.zmh.demo.interceptor.MyInterFace.AcrossToken;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
@@ -22,6 +23,13 @@ public class WebInterceptor implements HandlerInterceptor {
         /*不是映射方法直接通过*/
         if(!(handler instanceof HandlerMethod)){
             log.info("直接通过");
+            return true;
+        }
+
+        /*查看是否被注解修饰*/
+        AcrossToken acrossToken= ((HandlerMethod) handler).getMethodAnnotation(AcrossToken.class);
+        if (acrossToken != null){
+            log.info("注解通过");
             return true;
         }
 

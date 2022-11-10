@@ -32,7 +32,6 @@ public class WebInterCeptorConfig implements WebMvcConfigurer {
         list.add("/role/delete/**");
         list.add("/role/delete");
         list.add("/role/toget");
-        list.add("/front/**");
         list.add("/file/editorImg");
         list.add("/alipay/**");
 
