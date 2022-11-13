@@ -21,6 +21,7 @@ public class TimeController {
     private TimeMapper timeMapper;
 
     @PostMapping("/times")
+    @Transactional
     public Result time(@RequestBody String name){
         QueryWrapper<Time> queryWrapper=new QueryWrapper<Time>();
         String today= DateUtil.today();

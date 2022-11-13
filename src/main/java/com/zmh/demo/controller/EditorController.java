@@ -10,6 +10,7 @@ import com.zmh.demo.service.EditService;
 import com.zmh.demo.util.CardToCheck;
 import com.zmh.demo.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -55,12 +56,14 @@ public class EditorController {
     }
 
     @DeleteMapping("/delete/{id}")
+    @Transactional
     public Result delete(@PathVariable Integer id){
         editMapper.deleteById(id);
         return Result.success();
     }
 
     @PostMapping("/deletes")
+    @Transactional
     public  Result deletes(@RequestBody List<Integer> ids){
         editMapper.deleteBatchIds(ids);
         return Result.success();

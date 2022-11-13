@@ -22,6 +22,17 @@
               </div>
           </el-card>
        </div>
+        <el-dialog
+                title="提示"
+                :visible.sync="dialogVisible"
+                width="30%">
+            <span>是否完成交易?</span>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="toSpet">取 消</el-button>
+                <el-button type="primary" @click="toSpet">确 定</el-button>
+           </span>
+        </el-dialog>
+
     </div>
 </template>
 
@@ -32,7 +43,10 @@
             return{
                 username: this.$route.query.username != null ? this.$route.query.username : JSON.parse(localStorage.getItem("user")).username,
                 order: [],
-                abandon: {}
+                abandon: {},
+                dialogVisible: false,
+                trade: '',
+                goods: ''
             }
         },
         created() {
@@ -48,7 +62,10 @@
             },
             tobuy(title,id){
                 let time = parseInt(new Date().getTime() / 1000) + '';
+                this.trade=time+title.charCodeAt()+id;
+                this.goods=title;
                 window.open('http://localhost:8080/alipay/pay?subject='+title+'&traceNo='+time+title.charCodeAt()+id+'&totalAmount='+id);
+                this.dialogVisible=true;
             },
             giveup(goods){
                 this.abandon.goods=goods;
@@ -59,6 +76,19 @@
                     }else {
                         this.$message.success("删除订单成功!");
                         this.getUserOrder();
+                    }
+                    this.abandon=null;
+                })
+            },
+            toSpet(){
+                this.request.post('/order/session',this.trade).then(res =>{
+                    if(res.code !== '200'){
+                        this.$message.error("交易失败!");
+                    }else {
+                        this.$message.success("交易成功!");
+                        this.dialogVisible=false;
+                        this.giveup(this.goods);
+                        this.goods=null;
                     }
                 })
             }

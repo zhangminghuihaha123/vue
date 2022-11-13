@@ -66,12 +66,14 @@ public class UserServiceController {
     }
 
     @DeleteMapping("/delete/{id}")
+    @Transactional
     public Result delete(@PathVariable Integer id){
         userMapper.deleteById(id);
         return Result.success("删除成功");
     }
 
     @PostMapping("/deletes")
+    @Transactional
     public Result deletes(@RequestBody List<Integer> ids){
         try{
             userMapper.deleteBatchIds(ids);

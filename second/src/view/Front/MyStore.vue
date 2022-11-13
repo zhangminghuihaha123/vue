@@ -18,6 +18,16 @@
                     </div>
                 </div>
             </div>
+            <el-dialog
+                    title="提示"
+                    :visible.sync="dialogVisible"
+                    width="30%">
+                <span>是否完成交易?</span>
+                <span slot="footer" class="dialog-footer">
+                <el-button @click="toSpet">取 消</el-button>
+                <el-button type="primary" @click="toSpet">确 定</el-button>
+           </span>
+            </el-dialog>
         </el-card>
     </div>
 </template>
@@ -33,7 +43,9 @@
                    num: 1
                },
                user: localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : {},
-               shopcar: {}
+               shopcar: {},
+               dialogVisible: false,
+               trade: ''
             }
         },
         created() {
@@ -53,6 +65,8 @@
             tobuy(title,id){
                 let time = parseInt(new Date().getTime() / 1000) + '';
                 window.open('http://localhost:8080/alipay/pay?subject='+title+'&traceNo='+time+title.charCodeAt()+id+'&totalAmount='+id);
+                this.trade=time+title.charCodeAt()+id;
+                this.dialogVisible=true;
             },
             tocar(goods,price,total){
                 this.shopcar.goods=goods;
@@ -67,6 +81,17 @@
                         this.$message.success("入库成功!");
                         this.$router.push('/front/order?username=' + this.user.username);
                     }
+                })
+            },
+            toSpet(){
+                this.request.post('/order/session',this.trade).then(res =>{
+                    if(res.code !== '200'){
+                        this.$message.error("交易失败!");
+                    }else {
+                        this.$message.success("交易成功!");
+                        this.dialogVisible=false;
+                    }
+                    this.trade=null;
                 })
             }
         }

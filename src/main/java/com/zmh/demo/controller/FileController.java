@@ -15,6 +15,7 @@ import com.zmh.demo.util.CardToCheck;
 import com.zmh.demo.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -43,6 +44,7 @@ public class FileController {
     private String Filepath;
 
     @PostMapping("/upload")
+    @Transactional
     public Result upload(@RequestParam MultipartFile file) throws IOException {
         String originalFilename = file.getOriginalFilename();
         String type = FileUtil.extName(originalFilename);
@@ -67,6 +69,7 @@ public class FileController {
     }
 
     @PostMapping("/getimg")
+    @Transactional
     public Result getimgs(@RequestBody User user){
         String hope=CardToCheck.todo(user.getAvater());
         String avater="http://localhost:8080/file/img/"+hope;
@@ -103,16 +106,19 @@ public class FileController {
     }
 
     @DeleteMapping("/delete/{id}")
+    @Transactional
     public Result deleteFile(@PathVariable Integer id){
         return fileService.delete(id);
     }
 
     @PostMapping("/delete")
+    @Transactional
     public Result deletesFile(@RequestBody List<Integer> ids){
         return fileService.deletes(ids);
     }
 
     @PostMapping("/bol")
+    @Transactional
     public void bol(@RequestBody Files file){
         if(file.getCheck()){
             //1
@@ -125,6 +131,7 @@ public class FileController {
 
 
     @PostMapping("/editorImg")
+    @Transactional
     public JSONObject editorImg(@RequestParam MultipartFile file) throws IOException {
         String originalFilename = file.getOriginalFilename();
         String type = FileUtil.extName(originalFilename);

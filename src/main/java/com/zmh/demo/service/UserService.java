@@ -9,6 +9,7 @@ import com.zmh.demo.util.Result;
 import com.zmh.demo.util.TokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.List;
@@ -43,6 +44,7 @@ public class UserService {
         return Result.success("用户注册成功!");
     }
 
+    @Transactional
     public Result save(User user) {
         /*判断是否存在该用户*/
         try{
@@ -61,6 +63,7 @@ public class UserService {
     }
 
 
+    @Transactional
     public void saveBath(List<User> list) {
         for(User user: list){
             this.save(user);

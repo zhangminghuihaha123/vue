@@ -7,6 +7,7 @@ import com.zmh.demo.mapper.RoleMapper;
 import com.zmh.demo.service.RoleService;
 import com.zmh.demo.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.ServletOutputStream;
@@ -37,18 +38,21 @@ public class RoleController {
     }
 
     @PostMapping("/save")
+    @Transactional
     public Result InsertRole(@RequestBody Role role){
           roleMapper.insert(role);
           return Result.success("插入数据成功");
     }
 
     @DeleteMapping("/delete/{id}")
+    @Transactional
     public Result delete(@PathVariable Integer id){
         roleMapper.deleteById(id);
         return Result.success();
     }
 
     @PostMapping("/delete")
+    @Transactional
     public Result deletes(@RequestBody List<Integer> list){
         roleMapper.deleteBatchIds(list);
         return Result.success();

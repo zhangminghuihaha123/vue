@@ -1,6 +1,10 @@
 package com.zmh.demo.controller.Alipay;
 
+import cn.hutool.core.date.DateUtil;
 import com.zmh.demo.enty.Alipay;
+import com.zmh.demo.enty.DTO.AliPayDto;
+import com.zmh.demo.mapper.AliPayMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.alipay.easysdk.factory.Factory;
@@ -9,9 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +20,9 @@ import java.util.Map;
 @RestController
 @RequestMapping("/alipay")
 public class AliPayController {
+
+    @Autowired
+    private AliPayMapper aliPayMapper;
 
     //localhost:8080/alipay/pay?subject=手机&traceNo=118&totalAmount=100
     @GetMapping("/pay") // &subject=xxx&traceNo=xxx&totalAmount=xxx
@@ -52,6 +56,12 @@ public class AliPayController {
             String tradeNo = params.get("out_trade_no");
             String gmtPayment = params.get("gmt_payment");
             String alipayTradeNo = params.get("trade_no");
+
+            AliPayDto aliPay=new AliPayDto();
+            aliPay.setOrderToken(tradeNo);
+            aliPay.setTime(DateUtil.today());
+            aliPayMapper.insert(aliPay);
+
             // 支付宝验签
             if (Factory.Payment.Common().verifyNotify(params)) {
                 // 验签通过
