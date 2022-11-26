@@ -5,17 +5,22 @@ import cn.hutool.log.Log;
 import com.zmh.demo.interceptor.MyInterFace.AcrossToken;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 public class WebInterceptor implements HandlerInterceptor {
 
     @Autowired
     private static final Log log=  Log.get();
+
+    @Autowired
+    private RedisTemplate redisTemplate;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -39,6 +44,7 @@ public class WebInterceptor implements HandlerInterceptor {
         }
 
         log.info("token================>"+token);
+        redisTemplate.opsForValue().set("token:"+token,token,30, TimeUnit.MINUTES);
         return true;
     }
 }
